@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.12)  12 OCT 2023 21:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.12)  12 OCT 2023 23:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Usuario/Desktop/Frontiers_LaTeX_Templates/frontiers.tex
-(c:/Users/Usuario/Desktop/Frontiers_LaTeX_Templates/frontiers.tex
+**c:/Users/Usuario/Documents/GitHub/MODELOMAIZE/frontiers.tex
+(c:/Users/Usuario/Documents/GitHub/MODELOMAIZE/frontiers.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (FrontiersinHarvard.cls
@@ -538,10 +538,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package epstopdf Info: Source file: <./logo1.eps>
-(epstopdf)                    date: 2023-10-12 19:12:43
-(epstopdf)                    size: 37462 bytes
+(epstopdf)                    date: 2023-10-12 22:36:28
+(epstopdf)                    size: 38401 bytes
 (epstopdf)             Output file: <./logo1-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-12 21:53:25
+(epstopdf)                    date: 2023-10-12 22:36:28
 (epstopdf)                    size: 24813 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./logo1-eps-converted-to.pdf ./logo1.eps>
 (epstopdf)             \includegraphics on input line 59.
@@ -615,10 +615,10 @@ File: logo1.pdf Graphic file (type pdf)
 Package pdftex.def Info: logo1.pdf  used on input line 172.
 (pdftex.def)             Requested size: 284.52756pt x 80.43947pt.
 Package epstopdf Info: Source file: <logo1.eps>
-(epstopdf)                    date: 2023-10-12 19:12:43
-(epstopdf)                    size: 37462 bytes
+(epstopdf)                    date: 2023-10-12 22:36:28
+(epstopdf)                    size: 38401 bytes
 (epstopdf)             Output file: <logo1-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-12 21:53:25
+(epstopdf)                    date: 2023-10-12 22:36:28
 (epstopdf)                    size: 24813 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=logo1-eps-converted-to.pdf logo1.eps>
 (epstopdf)             \includegraphics on input line 184.
@@ -630,10 +630,10 @@ Package pdftex.def Info: logo1-eps-converted-to.pdf  used on input line 184.
 (pdftex.def)             Requested size: 252.0pt x 71.24008pt.
 Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on input line 185.
 Package epstopdf Info: Source file: <logo2.eps>
-(epstopdf)                    date: 2023-10-12 19:12:44
-(epstopdf)                    size: 21390 bytes
+(epstopdf)                    date: 2023-10-12 22:36:28
+(epstopdf)                    size: 22086 bytes
 (epstopdf)             Output file: <logo2-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-12 21:53:28
+(epstopdf)                    date: 2023-10-12 22:36:28
 (epstopdf)                    size: 10360 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=logo2-eps-converted-to.pdf logo2.eps>
 (epstopdf)             \includegraphics on input line 192.
@@ -666,15 +666,15 @@ Package rerunfilecheck Info: File `frontiers.out' has not changed.
 (rerunfilecheck)             Checksum: FBDCD0BCC4C9CF738695C24E71A5A9DD;2233.
  ) 
 Here is how much of TeX's memory you used:
- 16309 strings out of 475247
- 258956 string characters out of 5767600
+ 16315 strings out of 475247
+ 258950 string characters out of 5767600
  1931785 words of memory out of 5000000
- 37333 multiletter control sequences out of 15000+600000
- 594523 words of font info for 190 fonts, out of 8000000 for 9000
+ 37336 multiletter control sequences out of 15000+600000
+ 594611 words of font info for 192 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 87i,8n,131p,1068b,670s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,8n,131p,1063b,670s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on frontiers.pdf (5 pages, 253520 bytes).
+Output written on frontiers.pdf (5 pages, 253380 bytes).
 PDF statistics:
  239 PDF objects out of 1000 (max. 8388607)
  40 named destinations out of 1000 (max. 500000)
