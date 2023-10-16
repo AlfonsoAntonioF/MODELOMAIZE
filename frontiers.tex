@@ -14,11 +14,11 @@
 \documentclass[utf8]{FrontiersinHarvard} % for articles in journals using the Harvard Referencing Style (Author-Date), for Frontiers Reference Styles by Journal: https://zendesk.frontiersin.org/hc/en-us/articles/360017860337-Frontiers-Reference-Styles-by-Journal
 %\documentclass[utf8]{FrontiersinVancouver} % for articles in journals using the Vancouver Reference Style (Numbered), for Frontiers Reference Styles by Journal: https://zendesk.frontiersin.org/hc/en-us/articles/360017860337-Frontiers-Reference-Styles-by-Journal
 %\documentclass[utf8]{frontiersinFPHY_FAMS} % Vancouver Reference Style (Numbered) for articles in the journals "Frontiers in Physics" and "Frontiers in Applied Mathematics and Statistics" 
-
+\usepackage{amsmath}
 %\setcitestyle{square} % for articles in the journals "Frontiers in Physics" and "Frontiers in Applied Mathematics and Statistics" 
 \usepackage{url,hyperref,lineno,microtype,subcaption}
 \usepackage[onehalfspacing]{setspace}
-
+\usepackage{pgfplots}
 \linenumbers
 
 
@@ -97,6 +97,121 @@ En este contexto, el presente trabajo se enfocará en proponer un modelo matemá
 % hola mundo
 % vjvccgtdtydtydyt este es otro tramo
 \section{Propuesta del modelo}
+Iniciaremos a construir el modelo por partes, primero partiremos de una aproximación lineal que simule el crecimiento de una sola planta de maíz hasta antes del inicio del periodo reproductivo.
+\\
+Considerando que el ciclo de producción del maíz desde la siembra hasta la cosecha es un tiempo promedio de 180 a 200 días, consideraremos el número máximo de hojas de la planta como un indicador de maduración antes del inicio de la etapa de desarrollo reproductivo (que inicia a partir del día 60-65 aproximadamente), obteniendo un máximo de 24 hojas.
+\\Para ello tomaremos el promedio de días en que una mata genera un par de hojas bajo lo siguiente:
+\begin{itemize}
+    \item El promedio de días que lleva generar una nueva hoja en la etapa de desarrollo vegetativo inicial es de aproximadamente 3 a 4 días [12][14]. 
+    \item Durante la etapa de desarrollo vegetativo activo, las hojas se despliegan rápidamente, con la aparición de una nueva hoja cada 2 a 3 días [12].
+    
+\end{itemize}
+Para esto consideraremos parámetros como:
+\begin{itemize}
+    \item 	La maduración estará determinada por el número de hojas y la denotaremos como $m$. 
+    \item 	El número de hojas pares $N_H$.
+    \item 	La temperatura en $^{\circ}C$ denotada como $T$.
+    \item 	La precipitación pluvial en milímetros ($mm$) y se denotara como $P_p$ 
+    \item 	Evaporación en milímetros ($mm$) denotada como $E_p$.
+    \item 	Horas luz denotado por $H_l$.
+\end{itemize}
+
+Todos los parametros dependerán  del tiempo $t$.\\
+Vamos a considerar una aproximación de la siguiente forma 
+\begin{equation}
+    m(t)= F(t,T(t),P_p(t),E_p(t),H_l(t))
+    \label{eq:aproximacion}
+\end{equation}
+Realizando la aproximación mediante regresion lineal multiple se pretende obtener algo como:
+\begin{equation}
+    m(t)=\alpha_i (m,T,P_p,N_H)
+    \label{eq:aproximacionRLM}
+\end{equation}
+
+Donde cada $\alpha_i$ será una constante a trozos por etapas de maduración.Y así poder obtener una ecuación diferencial de la forma [insertar número de ecuación], en donde el indicador de maduración m será el número de hojas pares $N_H$, quedando como:
+\begin{equation}
+    \frac{dN_H}{dt}=\alpha_i \begin{pmatrix}
+        T(t)  
+        \\ P_p(t)
+        \\E_p(t)
+        \\H_l(t)
+    \end{pmatrix}
+\end{equation}
+Y el $\alpha_i$ quedara determinado como:
+\begin{equation}
+    \alpha_i(N_H,t)= \left\{ \begin{array}{lcc} \alpha_{i,2} & si & 0 \leq N_H < 2, \ t \in (0,\tau_1) \\ \\ 
+        \vdots \\ \\ 
+        \alpha_{i,24} & si & 22 \leq N_H < 24, \ t \in (\tau_{22},\tau_{24})
+    \end{array} \right.
+\end{equation}
+
+\begin{figure}[h]
+    \centering
+
+\begin{tikzpicture}
+    \begin{axis}[
+        xlabel={$t_i$},
+        ylabel={$N_H$},
+        axis lines=middle,
+        enlargelimits=false,
+        grid=none,
+        width=17cm,
+        height=10cm,
+        domain=0:67, % Rango del eje x
+        samples=200, % Número de puntos para dibujar la curva
+    ]
+    
+    % Definir funciones constantes por partes
+    \addplot+[mark=none, thick, domain=1:7] {0}; % y = 1 para 1 <= x < 7
+    %\addplot+[mark=none, thick, domain=5:11]{0};
+    
+    \addplot+[mark=none, thick, domain=7:11] {1}; % y = 3 para 5 <= x < 11
+    %\addplot+[mark=none, thick, domain=8:15]{1};
+    
+    \addplot+[mark=none, thick, domain=11:15] {2}; % y = 0 para 5 <= x <= 10
+    %\addplot+[mark=none, thick, domain=11:19]{2};
+    
+    \addplot+[mark=none, thick, domain=15:19] {3}; % y = 1 para 0 <= x < 2
+    %\addplot+[mark=none, thick, domain=14:23]{3};
+    
+    \addplot+[mark=none, thick, domain=19:23] {4}; % y = 3 para 2 <= x < 5
+    %\addplot+[mark=none, thick, domain=17:27]{4};
+    
+    %-----------------------------------------------------------------
+    \addplot+[mark=none, thick, domain=24:25] {5}; % y = 0 para 5 <= x <= 10
+    %\addplot+[mark=none, thick, domain=22:28] {5};
+    
+    \addplot+[mark=none, thick, domain=26:27] {6}; % y = 1 para 0 <= x < 2
+    %\addplot+[mark=none, thick, domain=24:30] {6};
+    
+    \addplot+[mark=none, thick, domain=28:29] {7}; % y = 3 para 2 <= x < 5
+    \addplot+[mark=none, thick, domain=30:31] {8}; % y = 0 para 5 <= x <= 10
+    \addplot+[mark=none, thick, domain=32:33] {9}; % y = 1 para 0 <= x < 2
+    \addplot+[mark=none, thick, domain=34:35] {10}; % y = 3 para 2 <= x < 5
+    \addplot+[mark=none, thick, domain=36:37] {11}; % y = 0 para 5 <= x <= 10
+    \addplot+[mark=none, thick, domain=38:39] {12}; % y = 1 para 0 <= x < 2
+    \addplot+[mark=none, thick, domain=40:41] {13}; % y = 3 para 2 <= x < 5
+    \addplot+[mark=none, thick, domain=42:43] {14}; % y = 0 para 5 <= x <= 10
+    \addplot+[mark=none, thick, domain=44:45] {15}; % y = 1 para 0 <= x < 2
+    \addplot+[mark=none, thick, domain=46:47] {16}; % y = 3 para 2 <= x < 5
+    \addplot+[mark=none, thick, domain=48:49] {17}; % y = 0 para 5 <= x <= 10
+    \addplot+[mark=none, thick, domain=50:51] {18}; % y = 1 para 0 <= x < 2
+    \addplot+[mark=none, thick, domain=52:53] {19}; % y = 3 para 2 <= x < 5
+    \addplot+[mark=none, thick, domain=54:55] {20}; % y = 0 para 5 <= x <= 10
+    \addplot+[mark=none, thick, domain=56:57] {21}; % y = 0 para 5 <= x <= 10
+    \addplot+[mark=none, thick, domain=58:59] {22}; % y = 0 para 5 <= x <= 10
+    \addplot+[mark=none, thick, domain=60:61] {23}; % y = 0 para 5 <= x <= 10
+    \addplot+[mark=none, thick, domain=62:63] {24}; % y = 0 para 5 <= x <= 10
+    \addplot+[mark=none, thick, domain=64:65] {24}; % y = 0 para 5 <= x <= 10
+    
+    \end{axis}
+    \end{tikzpicture}
+    \caption{Tiempo en desarrollar un par de hojas}
+    \label{fig:aproximacionlineal}
+\end{figure}
+
+
+
 
 \section{Article types}
 
