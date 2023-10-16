@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex frontiers"] 1697429240 "frontiers.aux" "frontiers.bbl" "frontiers" 1697429245 0
+["bibtex frontiers"] 1697429318 "frontiers.aux" "frontiers.bbl" "frontiers" 1697429323 0
   "./Frontiers-Harvard.bst" 1697171788 33209 1341c127ed7af43085eb64600f38bbe5 ""
   "./test.bib" 1697428706 2509 a9b44c5b191780be4e80bc57c5c33a24 ""
-  "frontiers.aux" 1697429243 4355 be80158ceda09cd388e18e1e514963d4 "pdflatex"
+  "frontiers.aux" 1697429322 4472 1c20ee9780f800f4b65db237423d1e40 "pdflatex"
   (generated)
   "frontiers.bbl"
   "frontiers.blg"
   (rewritten before read)
-["pdflatex"] 1697429241 "c:/Users/Usuario/Documents/GitHub/MODELOMAIZE/frontiers.tex" "frontiers.pdf" "frontiers" 1697429245 0
+["pdflatex"] 1697429319 "c:/Users/Usuario/Documents/GitHub/MODELOMAIZE/frontiers.tex" "frontiers.pdf" "frontiers" 1697429323 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136765053 960 379cc0019370a9e0208a0a3f949f847a ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136765053 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -156,11 +156,11 @@
   "C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/sttools/flushend.sty" 1634199215 28406 d50b1f1e09a8ea19dbf64f26f6df71ab ""
   "C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/sttools/stfloats.sty" 1634199215 24057 ff20efb65b128d27c08eac20ec07f540 ""
   "FrontiersinHarvard.cls" 1697171788 29639 f293301d2bfdd7ef6504ba9e80df61c1 ""
-  "c:/Users/Usuario/Documents/GitHub/MODELOMAIZE/frontiers.tex" 1697429234 17682 14db61e56501e5b0011679dcdb6f0b2c ""
-  "frontiers.aux" 1697429243 4355 be80158ceda09cd388e18e1e514963d4 "pdflatex"
-  "frontiers.bbl" 1697429240 1268 40b3f0be6b7b82c16f33232e5d75b0f8 "bibtex frontiers"
-  "frontiers.out" 1697429243 2233 fbdcd0bcc4c9cf738695c24e71a5a9dd "pdflatex"
-  "frontiers.tex" 1697429234 17682 14db61e56501e5b0011679dcdb6f0b2c ""
+  "c:/Users/Usuario/Documents/GitHub/MODELOMAIZE/frontiers.tex" 1697429312 17712 19b7523f266a4a07995fba12d427bbf8 ""
+  "frontiers.aux" 1697429322 4472 1c20ee9780f800f4b65db237423d1e40 "pdflatex"
+  "frontiers.bbl" 1697429319 1268 40b3f0be6b7b82c16f33232e5d75b0f8 "bibtex frontiers"
+  "frontiers.out" 1697429322 2383 8130ae1426360f565331039513db81ad "pdflatex"
+  "frontiers.tex" 1697429312 17712 19b7523f266a4a07995fba12d427bbf8 ""
   "logo1.eps" 1697171788 38401 776b4d7efab5d1912cafad2bab92a208 ""
   "logo1.pdf" 1697171788 27591 c9c324700d80d9ea6d7bfd29ab6a68a1 ""
   "logo2.eps" 1697171788 22086 840276ca5cc4a05fb065091f7b756f00 ""
