@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.12)  15 OCT 2023 23:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.12)  15 OCT 2023 23:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -842,14 +842,14 @@ Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
  [3]
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <12> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 230.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 231.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 231.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 232.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
  [4]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 253.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 254.
  (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
@@ -864,7 +864,7 @@ Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 <logo1.pdf, id=142, 284.06125pt x 80.3pt>
 File: logo1.pdf Graphic file (type pdf)
 <use logo1.pdf>
-Package pdftex.def Info: logo1.pdf  used on input line 308.
+Package pdftex.def Info: logo1.pdf  used on input line 309.
 (pdftex.def)             Requested size: 284.52756pt x 80.43947pt.
 
 
@@ -877,14 +877,14 @@ Package epstopdf Info: Source file: <logo1.eps>
 (epstopdf)                    date: 2023-10-12 22:36:28
 (epstopdf)                    size: 24813 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=logo1-eps-converted-to.pdf logo1.eps>
-(epstopdf)             \includegraphics on input line 320.
+(epstopdf)             \includegraphics on input line 321.
 Package epstopdf Info: Output file is already uptodate.
 <logo1-eps-converted-to.pdf, id=143, 284.06125pt x 80.3pt>
 File: logo1-eps-converted-to.pdf Graphic file (type pdf)
 <use logo1-eps-converted-to.pdf>
-Package pdftex.def Info: logo1-eps-converted-to.pdf  used on input line 320.
+Package pdftex.def Info: logo1-eps-converted-to.pdf  used on input line 321.
 (pdftex.def)             Requested size: 252.0pt x 71.24008pt.
-Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on input line 321.
+Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on input line 322.
 Package epstopdf Info: Source file: <logo2.eps>
 (epstopdf)                    date: 2023-10-12 22:36:28
 (epstopdf)                    size: 22086 bytes
@@ -892,12 +892,12 @@ Package epstopdf Info: Source file: <logo2.eps>
 (epstopdf)                    date: 2023-10-12 22:36:28
 (epstopdf)                    size: 10360 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=logo2-eps-converted-to.pdf logo2.eps>
-(epstopdf)             \includegraphics on input line 328.
+(epstopdf)             \includegraphics on input line 329.
 Package epstopdf Info: Output file is already uptodate.
 <logo2-eps-converted-to.pdf, id=144, 70.2625pt x 79.29625pt>
 File: logo2-eps-converted-to.pdf Graphic file (type pdf)
 <use logo2-eps-converted-to.pdf>
-Package pdftex.def Info: logo2-eps-converted-to.pdf  used on input line 328.
+Package pdftex.def Info: logo2-eps-converted-to.pdf  used on input line 329.
 (pdftex.def)             Requested size: 252.0pt x 284.44862pt.
 
 Package caption Warning: Unused \captionsetup[sub] on input line 20.
