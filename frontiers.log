@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.12)  15 OCT 2023 21:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.12)  15 OCT 2023 22:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -546,7 +546,7 @@ Package epstopdf Info: Source file: <./logo1.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=./logo1-eps-converted-to.pdf ./logo1.eps>
 (epstopdf)             \includegraphics on input line 59.
 Package epstopdf Info: Output file is already uptodate.
-<./logo1-eps-converted-to.pdf, id=67, 284.06125pt x 80.3pt>
+<./logo1-eps-converted-to.pdf, id=71, 284.06125pt x 80.3pt>
 File: ./logo1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./logo1-eps-converted-to.pdf>
 Package pdftex.def Info: ./logo1-eps-converted-to.pdf  used on input line 59.
@@ -595,7 +595,7 @@ LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <12> not available
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <11> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 133.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 132.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
@@ -612,7 +612,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
  [3] (frontiers.bbl)
-<logo1.pdf, id=123, 284.06125pt x 80.3pt>
+<logo1.pdf, id=127, 284.06125pt x 80.3pt>
 File: logo1.pdf Graphic file (type pdf)
 <use logo1.pdf>
 Package pdftex.def Info: logo1.pdf  used on input line 193.
@@ -626,7 +626,7 @@ Package epstopdf Info: Source file: <logo1.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=logo1-eps-converted-to.pdf logo1.eps>
 (epstopdf)             \includegraphics on input line 205.
 Package epstopdf Info: Output file is already uptodate.
-<logo1-eps-converted-to.pdf, id=124, 284.06125pt x 80.3pt>
+<logo1-eps-converted-to.pdf, id=128, 284.06125pt x 80.3pt>
 File: logo1-eps-converted-to.pdf Graphic file (type pdf)
 <use logo1-eps-converted-to.pdf>
 Package pdftex.def Info: logo1-eps-converted-to.pdf  used on input line 205.
@@ -641,7 +641,7 @@ Package epstopdf Info: Source file: <logo2.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=logo2-eps-converted-to.pdf logo2.eps>
 (epstopdf)             \includegraphics on input line 213.
 Package epstopdf Info: Output file is already uptodate.
-<logo2-eps-converted-to.pdf, id=125, 70.2625pt x 79.29625pt>
+<logo2-eps-converted-to.pdf, id=129, 70.2625pt x 79.29625pt>
 File: logo2-eps-converted-to.pdf Graphic file (type pdf)
 <use logo2-eps-converted-to.pdf>
 Package pdftex.def Info: logo2-eps-converted-to.pdf  used on input line 213.
@@ -666,20 +666,20 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `frontiers.out' has not changed.
-(rerunfilecheck)             Checksum: FBDCD0BCC4C9CF738695C24E71A5A9DD;2233.
+(rerunfilecheck)             Checksum: 8130AE1426360F565331039513DB81AD;2383.
  ) 
 Here is how much of TeX's memory you used:
- 16297 strings out of 475247
- 258693 string characters out of 5767600
+ 16299 strings out of 475247
+ 258713 string characters out of 5767600
  1937785 words of memory out of 5000000
- 37319 multiletter control sequences out of 15000+600000
+ 37320 multiletter control sequences out of 15000+600000
  594478 words of font info for 193 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 87i,8n,131p,1063b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,8n,131p,1063b,467s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on frontiers.pdf (5 pages, 250167 bytes).
+Output written on frontiers.pdf (5 pages, 250482 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 67733 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 227 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 67741 words of extra memory for PDF output out of 74296 (max. 10000000)
 
