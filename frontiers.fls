@@ -332,6 +332,8 @@ INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzl
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryplotmarks.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
+INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\wrapfig\wrapfig.sty
 INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ptm.fd
@@ -435,6 +437,13 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT .\images\morfologia.jpg
+INPUT .\images\morfologia.jpg
+INPUT .\images\morfologia.jpg
+INPUT .\images\morfologia.jpg
+INPUT .\images\morfologia.jpg
+INPUT .\images\morfologia.jpg
+INPUT .\images\morfologia.jpg
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvbo7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvbo7t.vf
@@ -454,6 +463,13 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT .\images\ciclomaiz.png
+INPUT .\images\ciclomaiz.png
+INPUT .\images\ciclomaiz.png
+INPUT .\images\ciclomaiz.png
+INPUT .\images\ciclomaiz.png
+INPUT .\images\ciclomaiz.png
+INPUT .\images\ciclomaiz.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvbo7t.tfm

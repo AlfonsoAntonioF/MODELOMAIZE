@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.12)  17 OCT 2023 18:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.12)  17 OCT 2023 21:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -670,72 +670,80 @@ Package pgfplots: loading complementary utilities for your pgf version...
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)))
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 44.
+))) (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen298
+\WF@size=\dimen299
+\c@WF@wrappedlines=\count358
+\WF@box=\box78
+\WF@everypar=\toks60
+Package: wrapfig 2003/01/31  v 3.6
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 47.
  (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count358
-\l__pdf_internal_box=\box78
+\l__color_backend_stack_int=\count359
+\l__pdf_internal_box=\box79
 ) (frontiers.aux)
 \openout1 = `frontiers.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count359
-\scratchdimen=\dimen298
-\scratchbox=\box79
-\nofMPsegments=\count360
-\nofMParguments=\count361
-\everyMPshowfont=\toks60
-\MPscratchCnt=\count362
-\MPscratchDim=\dimen299
-\MPnumerator=\count363
-\makeMPintoPDFobject=\count364
-\everyMPtoPDFconversion=\toks61
+\scratchcounter=\count360
+\scratchdimen=\dimen300
+\scratchbox=\box80
+\nofMPsegments=\count361
+\nofMParguments=\count362
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count363
+\MPscratchDim=\dimen301
+\MPnumerator=\count364
+\makeMPintoPDFobject=\count365
+\everyMPtoPDFconversion=\toks62
 )
-Package crop Info: requested driver: `' on input line 44.
-Package crop Info: detected driver: `pdftex' on input line 44.
-Package crop Info: using `pdftex' graphics driver on input line 44.
+Package crop Info: requested driver: `' on input line 47.
+Package crop Info: detected driver: `pdftex' on input line 47.
+Package crop Info: using `pdftex' graphics driver on input line 47.
  (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/fmtcount\fc-english.def
 File: fc-english.def 2016/01/12
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 44.
+Package hyperref Info: Link coloring OFF on input line 47.
  (frontiers.out) (frontiers.out)
 \@outlinefile=\write4
 \openout4 = `frontiers.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 44.
-Package microtype Info: Applying patch `item' on input line 44.
-Package microtype Info: Applying patch `toc' on input line 44.
-Package microtype Info: Applying patch `eqnum' on input line 44.
+LaTeX Info: Redefining \microtypecontext on input line 47.
+Package microtype Info: Applying patch `item' on input line 47.
+Package microtype Info: Applying patch `toc' on input line 47.
+Package microtype Info: Applying patch `eqnum' on input line 47.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 44.
+Package microtype Warning: Unable to apply patch `footnote' on input line 47.
 
-Package microtype Info: Applying patch `verbatim' on input line 44.
+Package microtype Info: Applying patch `verbatim' on input line 47.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2),
 (microtype)             factor: 1500.
@@ -743,7 +751,7 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 44.
+LaTeX Info: Redefining \showhyphens on input line 47.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -752,9 +760,9 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 44.
+ on input line 47.
 
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 59.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 62.
 (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
@@ -769,44 +777,44 @@ Package epstopdf Info: Source file: <./logo1.eps>
 (epstopdf)                    date: 2023-10-12 22:36:28
 (epstopdf)                    size: 24813 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./logo1-eps-converted-to.pdf ./logo1.eps>
-(epstopdf)             \includegraphics on input line 59.
+(epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
-<./logo1-eps-converted-to.pdf, id=94, 284.06125pt x 80.3pt>
+<./logo1-eps-converted-to.pdf, id=106, 284.06125pt x 80.3pt>
 File: ./logo1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./logo1-eps-converted-to.pdf>
-Package pdftex.def Info: ./logo1-eps-converted-to.pdf  used on input line 59.
+Package pdftex.def Info: ./logo1-eps-converted-to.pdf  used on input line 62.
 (pdftex.def)             Requested size: 144.0pt x 40.70862pt.
 
-Underfull \hbox (badness 10000) detected at line 59
+Underfull \hbox (badness 10000) detected at line 62
 []
  []
 
 
-Overfull \hbox (8.53581pt too wide) in paragraph at lines 59--59
+Overfull \hbox (8.53581pt too wide) in paragraph at lines 62--62
 [][] 
  []
 
 (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Underfull \hbox (badness 10000) detected at line 59
+Underfull \hbox (badness 10000) detected at line 62
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--81
+Underfull \hbox (badness 10000) in paragraph at lines 76--84
 
  []
 
@@ -815,8 +823,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--81
 
 
 {C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc} <./logo1-eps-converted-to.pdf>]
+<./images/morfologia.jpg, id=128, 1084.05pt x 888.31876pt>
+File: ./images/morfologia.jpg Graphic file (type jpg)
+<use ./images/morfologia.jpg>
+Package pdftex.def Info: ./images/morfologia.jpg  used on input line 137.
+(pdftex.def)             Requested size: 226.79846pt x 185.8476pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--138
+\OT1/ptm/m/n/12 (+20) Morfolog[]^^Pa
+ []
+
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <11> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 140.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 138.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
@@ -835,22 +853,39 @@ LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
 (Font)              size <5> substituted on input line 140.
 
+<./images/ciclomaiz.png, id=134, 442.0515pt x 430.60875pt>
+File: ./images/ciclomaiz.png Graphic file (type png)
+<use ./images/ciclomaiz.png>
+Package pdftex.def Info: ./images/ciclomaiz.png  used on input line 168.
+(pdftex.def)             Requested size: 442.05042pt x 430.60768pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
- [3]
-LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <12> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 266.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 267.
+ [3 <./images/morfologia.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
- [4]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 289.
+ [4 <./images/ciclomaiz.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+ [5]
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <12> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 303.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 304.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+ [6]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 326.
  (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
@@ -861,11 +896,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
- [5] (frontiers.bbl)
-<logo1.pdf, id=162, 284.06125pt x 80.3pt>
+ [7] (frontiers.bbl)
+<logo1.pdf, id=187, 284.06125pt x 80.3pt>
 File: logo1.pdf Graphic file (type pdf)
 <use logo1.pdf>
-Package pdftex.def Info: logo1.pdf  used on input line 344.
+Package pdftex.def Info: logo1.pdf  used on input line 381.
 (pdftex.def)             Requested size: 284.52756pt x 80.43947pt.
 
 
@@ -878,14 +913,14 @@ Package epstopdf Info: Source file: <logo1.eps>
 (epstopdf)                    date: 2023-10-12 22:36:28
 (epstopdf)                    size: 24813 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=logo1-eps-converted-to.pdf logo1.eps>
-(epstopdf)             \includegraphics on input line 356.
+(epstopdf)             \includegraphics on input line 393.
 Package epstopdf Info: Output file is already uptodate.
-<logo1-eps-converted-to.pdf, id=163, 284.06125pt x 80.3pt>
+<logo1-eps-converted-to.pdf, id=188, 284.06125pt x 80.3pt>
 File: logo1-eps-converted-to.pdf Graphic file (type pdf)
 <use logo1-eps-converted-to.pdf>
-Package pdftex.def Info: logo1-eps-converted-to.pdf  used on input line 356.
+Package pdftex.def Info: logo1-eps-converted-to.pdf  used on input line 393.
 (pdftex.def)             Requested size: 252.0pt x 71.24008pt.
-Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on input line 357.
+Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on input line 394.
 Package epstopdf Info: Source file: <logo2.eps>
 (epstopdf)                    date: 2023-10-12 22:36:28
 (epstopdf)                    size: 22086 bytes
@@ -893,12 +928,12 @@ Package epstopdf Info: Source file: <logo2.eps>
 (epstopdf)                    date: 2023-10-12 22:36:28
 (epstopdf)                    size: 10360 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=logo2-eps-converted-to.pdf logo2.eps>
-(epstopdf)             \includegraphics on input line 364.
+(epstopdf)             \includegraphics on input line 401.
 Package epstopdf Info: Output file is already uptodate.
-<logo2-eps-converted-to.pdf, id=164, 70.2625pt x 79.29625pt>
+<logo2-eps-converted-to.pdf, id=189, 70.2625pt x 79.29625pt>
 File: logo2-eps-converted-to.pdf Graphic file (type pdf)
 <use logo2-eps-converted-to.pdf>
-Package pdftex.def Info: logo2-eps-converted-to.pdf  used on input line 364.
+Package pdftex.def Info: logo2-eps-converted-to.pdf  used on input line 401.
 (pdftex.def)             Requested size: 252.0pt x 284.44862pt.
 
 Package caption Warning: Unused \captionsetup[sub] on input line 20.
@@ -907,10 +942,10 @@ See the caption package documentation for explanation.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
- [6]
+ [8]
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
- [7 <./logo1.pdf> <./logo1-eps-converted-to.pdf> <./logo2-eps-converted-to.pdf>] (frontiers.aux)
+ [9 <./logo1.pdf> <./logo1-eps-converted-to.pdf> <./logo2-eps-converted-to.pdf>] (frontiers.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -921,20 +956,20 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
 Package rerunfilecheck Info: File `frontiers.out' has not changed.
-(rerunfilecheck)             Checksum: 2B614AA8EAD0F0065734E87E1914E637;3199.
+(rerunfilecheck)             Checksum: F1A85ED0DFD5E358CC150B33B9CACF1D;3874.
  ) 
 Here is how much of TeX's memory you used:
- 36775 strings out of 475247
- 828837 string characters out of 5767600
+ 36875 strings out of 475247
+ 830615 string characters out of 5767600
  1957785 words of memory out of 5000000
- 57415 multiletter control sequences out of 15000+600000
- 599177 words of font info for 224 fonts, out of 8000000 for 9000
+ 57501 multiletter control sequences out of 15000+600000
+ 599296 words of font info for 226 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  99i,11n,131p,1083b,2059s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on frontiers.pdf (7 pages, 305577 bytes).
+Output written on frontiers.pdf (9 pages, 690771 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 69329 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 297 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
+ 69363 words of extra memory for PDF output out of 74296 (max. 10000000)
 

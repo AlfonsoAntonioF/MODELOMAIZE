@@ -19,6 +19,9 @@
 \usepackage{url,hyperref,lineno,microtype,subcaption}
 \usepackage[onehalfspacing]{setspace}
 \usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\graphicspath{ {images/} }
 \linenumbers
 
 
@@ -127,9 +130,50 @@ o de ciclo corto, frutales y plantaciones.
 
 % Falta integrar la definicion de cada uno de los tipos de suelo existentes
 
+\section{Morfología y fisiología de la planta y grano de maíz}
 
+\begin{wrapfigure}{l}{0.45\textwidth} %this figure will be at the right
+    \centering
+    \includegraphics[width=0.45\textwidth]{./images/morfologia.jpg}
+\end{wrapfigure}
+\begin{itemize}
+    \item Raices
+    \\Son fasciculadas y su misión es aportar un perfecto anclaje a la planta, 
+    además de a absorción de nutrientes; conduciendo agua y sustancias disueltas, 
+    hacia el tallo y las hojas donde serán utilizadas. 
+    Cuando los granos germinan esta raíz fibrosa toma la iniciativa;
+     continua la aparición de varias raíces adventicias, 
+     hasta consolidarse el sistema radicular permanente.
 
+    \item Tallo
+    \\El tallo del maíz crece a partir de la raíz, por sobre el suelo, 
+    es simple, erecto en forma de caña y macizo en su interior, 
+    es robusto y no presenta ramificaciones. Su función es la conducción de 
+    materiales desde la raíz hasta las hojas y de las hojas hacia la raíz. 
+    Aparte de la producción y soporte de hojas, la panoja o flor masculina terminal; 
+    las flores femeninas axilares y las mazorcas o frutos.
+    Constituye un tallo herbáceo de monocotiledónea, solido, de color verde. 
+    Con alturas medias entre 0,6 m. y hasta 4,5 m. dividido en nudos y 
+    entrenudos prominentes. A nivel del entrenudo se producen las yemas que originan las mazorcas 
+    o ramas tipo chupones ocasionales. 
+    \item hojas
+    \\La función principal de la hoja es la Fotosíntesis y otra actividad 
+    importante es la transpiración; dividiéndose la hoja como tal, 
+    en tres partes bien diferenciadas:
+    \begin{itemize}
+        \item La lamina
+        \item La vaina 
+        \item El cuello
+    \end{itemize}
+    \item Inflorescencia
+    \item Grano
 
+\end{itemize}
+\section{Estados Fenologicos del maiz }
+\subsection{Ciclo del maiz}
+\begin{figure}[h]
+    \includegraphics{./images/ciclomaiz.png}
+\end{figure}
 
 \section{Propuesta del modelo}
 Iniciaremos a construir el modelo por partes, primero partiremos de una aproximación lineal que simule el crecimiento de una sola planta de maíz hasta antes del inicio del periodo reproductivo.
