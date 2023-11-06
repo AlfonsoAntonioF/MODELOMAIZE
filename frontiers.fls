@@ -445,9 +445,6 @@ INPUT .\images\morfologia.jpg
 INPUT .\images\morfologia.jpg
 INPUT .\images\morfologia.jpg
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvbo7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvbo7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvbo8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
@@ -463,6 +460,9 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvbo7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvbo7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvbo8r.tfm
 INPUT .\images\ciclomaiz.png
 INPUT .\images\ciclomaiz.png
 INPUT .\images\ciclomaiz.png
