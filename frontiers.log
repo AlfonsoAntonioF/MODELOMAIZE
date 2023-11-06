@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.12)  6 NOV 2023 13:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.12)  6 NOV 2023 13:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -779,7 +779,7 @@ Package epstopdf Info: Source file: <./logo1.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=./logo1-eps-converted-to.pdf ./logo1.eps>
 (epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
-<./logo1-eps-converted-to.pdf, id=106, 284.06125pt x 80.3pt>
+<./logo1-eps-converted-to.pdf, id=130, 284.06125pt x 80.3pt>
 File: ./logo1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./logo1-eps-converted-to.pdf>
 Package pdftex.def Info: ./logo1-eps-converted-to.pdf  used on input line 62.
@@ -814,7 +814,7 @@ Underfull \hbox (badness 10000) detected at line 62
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--84
+Underfull \hbox (badness 10000) in paragraph at lines 85--93
 
  []
 
@@ -823,97 +823,102 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--84
 
 
 {C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc} <./logo1-eps-converted-to.pdf>]
-<./images/morfologia.jpg, id=128, 1084.05pt x 888.31876pt>
-File: ./images/morfologia.jpg Graphic file (type jpg)
-<use ./images/morfologia.jpg>
-Package pdftex.def Info: ./images/morfologia.jpg  used on input line 137.
-(pdftex.def)             Requested size: 226.79846pt x 185.8476pt.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 140.
+Underfull \hbox (badness 10000) in paragraph at lines 127--140
+
+ []
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 140.
+Underfull \hbox (badness 10000) in paragraph at lines 127--140
 
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 140.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 140.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 140.
+ []
 
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <11> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 147.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 140.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
  [2]
+<./images/morfologia.jpg, id=157, 1084.05pt x 888.31876pt>
+File: ./images/morfologia.jpg Graphic file (type jpg)
+<use ./images/morfologia.jpg>
+Package pdftex.def Info: ./images/morfologia.jpg  used on input line 147.
+(pdftex.def)             Requested size: 226.79846pt x 185.8476pt.
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 148.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 159.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 164.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 165.
+Overfull \hbox (10.08215pt too wide) in paragraph at lines 147--148
+ [][] 
+ []
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 166.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 150.
+
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 174.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 174.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 168.
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
+(Font)              size <5> substituted on input line 174.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 169.
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 174.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 172.
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 179.
+
+<./images/maiz.jpg, id=158, 261.22594pt x 243.91125pt>
+File: ./images/maiz.jpg Graphic file (type jpg)
+<use ./images/maiz.jpg>
+Package pdftex.def Info: ./images/maiz.jpg  used on input line 181.
+(pdftex.def)             Requested size: 176.40308pt x 164.71114pt.
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 183.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 173.
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
-<./images/ciclomaiz.png, id=135, 442.0515pt x 430.60875pt>
+ [3 <./images/morfologia.jpg> <./images/maiz.jpg>]
+<./images/fenologia.png, id=166, 723.9045pt x 259.56975pt>
+File: ./images/fenologia.png Graphic file (type png)
+<use ./images/fenologia.png>
+Package pdftex.def Info: ./images/fenologia.png  used on input line 201.
+(pdftex.def)             Requested size: 506.72969pt x 181.69757pt.
+
+Overfull \hbox (2.72969pt too wide) in paragraph at lines 201--202
+ [][] 
+ []
+
+<./images/ciclomaiz.png, id=167, 442.0515pt x 430.60875pt>
 File: ./images/ciclomaiz.png Graphic file (type png)
 <use ./images/ciclomaiz.png>
-Package pdftex.def Info: ./images/ciclomaiz.png  used on input line 175.
-(pdftex.def)             Requested size: 442.05042pt x 430.60768pt.
+Package pdftex.def Info: ./images/ciclomaiz.png  used on input line 206.
+(pdftex.def)             Requested size: 353.64168pt x 344.48746pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 178.
-
-
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
- [3 <./images/morfologia.jpg>]
+ [4 <./images/fenologia.png>]
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+ [5 <./images/ciclomaiz.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \vbox (3.49998pt too high) has occurred while \output is active []
-
- [4 <./images/ciclomaiz.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (3.49998pt too high) has occurred while \output is active []
-
- [5]
-LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <12> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 310.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 311.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
  [6]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 333.
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <12> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 341.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 342.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+ [7]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 364.
  (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
@@ -924,11 +929,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
- [7] (frontiers.bbl)
-<logo1.pdf, id=187, 284.06125pt x 80.3pt>
+ [8] (frontiers.bbl)
+<logo1.pdf, id=219, 284.06125pt x 80.3pt>
 File: logo1.pdf Graphic file (type pdf)
 <use logo1.pdf>
-Package pdftex.def Info: logo1.pdf  used on input line 388.
+Package pdftex.def Info: logo1.pdf  used on input line 419.
 (pdftex.def)             Requested size: 284.52756pt x 80.43947pt.
 
 
@@ -941,14 +946,14 @@ Package epstopdf Info: Source file: <logo1.eps>
 (epstopdf)                    date: 2023-10-12 22:36:28
 (epstopdf)                    size: 24813 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=logo1-eps-converted-to.pdf logo1.eps>
-(epstopdf)             \includegraphics on input line 400.
+(epstopdf)             \includegraphics on input line 431.
 Package epstopdf Info: Output file is already uptodate.
-<logo1-eps-converted-to.pdf, id=188, 284.06125pt x 80.3pt>
+<logo1-eps-converted-to.pdf, id=220, 284.06125pt x 80.3pt>
 File: logo1-eps-converted-to.pdf Graphic file (type pdf)
 <use logo1-eps-converted-to.pdf>
-Package pdftex.def Info: logo1-eps-converted-to.pdf  used on input line 400.
+Package pdftex.def Info: logo1-eps-converted-to.pdf  used on input line 431.
 (pdftex.def)             Requested size: 252.0pt x 71.24008pt.
-Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on input line 401.
+Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on input line 432.
 Package epstopdf Info: Source file: <logo2.eps>
 (epstopdf)                    date: 2023-10-12 22:36:28
 (epstopdf)                    size: 22086 bytes
@@ -956,12 +961,12 @@ Package epstopdf Info: Source file: <logo2.eps>
 (epstopdf)                    date: 2023-10-12 22:36:28
 (epstopdf)                    size: 10360 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=logo2-eps-converted-to.pdf logo2.eps>
-(epstopdf)             \includegraphics on input line 408.
+(epstopdf)             \includegraphics on input line 439.
 Package epstopdf Info: Output file is already uptodate.
-<logo2-eps-converted-to.pdf, id=189, 70.2625pt x 79.29625pt>
+<logo2-eps-converted-to.pdf, id=221, 70.2625pt x 79.29625pt>
 File: logo2-eps-converted-to.pdf Graphic file (type pdf)
 <use logo2-eps-converted-to.pdf>
-Package pdftex.def Info: logo2-eps-converted-to.pdf  used on input line 408.
+Package pdftex.def Info: logo2-eps-converted-to.pdf  used on input line 439.
 (pdftex.def)             Requested size: 252.0pt x 284.44862pt.
 
 Package caption Warning: Unused \captionsetup[sub] on input line 20.
@@ -970,10 +975,10 @@ See the caption package documentation for explanation.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
- [8]
+ [9]
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
- [9 <./logo1.pdf> <./logo1-eps-converted-to.pdf> <./logo2-eps-converted-to.pdf>] (frontiers.aux)
+ [10 <./logo1.pdf> <./logo1-eps-converted-to.pdf> <./logo2-eps-converted-to.pdf>] (frontiers.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -984,20 +989,20 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
 Package rerunfilecheck Info: File `frontiers.out' has not changed.
-(rerunfilecheck)             Checksum: F1A85ED0DFD5E358CC150B33B9CACF1D;3874.
+(rerunfilecheck)             Checksum: A39CCE4C9BB7560EA83C0A3040F39048;4500.
  ) 
 Here is how much of TeX's memory you used:
- 36878 strings out of 475247
- 830639 string characters out of 5767600
+ 36932 strings out of 475247
+ 831495 string characters out of 5767600
  1957785 words of memory out of 5000000
- 57501 multiletter control sequences out of 15000+600000
- 599415 words of font info for 228 fonts, out of 8000000 for 9000
+ 57521 multiletter control sequences out of 15000+600000
+ 600400 words of font info for 245 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  99i,11n,131p,1083b,2059s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on frontiers.pdf (9 pages, 691048 bytes).
+Output written on frontiers.pdf (10 pages, 925350 bytes).
 PDF statistics:
- 297 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 69363 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 330 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
+ 69421 words of extra memory for PDF output out of 74296 (max. 10000000)
 

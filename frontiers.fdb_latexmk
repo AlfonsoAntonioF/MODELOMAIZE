@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex frontiers"] 1699297693 "frontiers.aux" "frontiers.bbl" "frontiers" 1699297698 0
+["bibtex frontiers"] 1699297883 "frontiers.aux" "frontiers.bbl" "frontiers" 1699297889 0
   "./Frontiers-Harvard.bst" 1697171788 33209 1341c127ed7af43085eb64600f38bbe5 ""
   "./test.bib" 1697428706 2509 a9b44c5b191780be4e80bc57c5c33a24 ""
-  "frontiers.aux" 1699297697 5917 dca5b65b0ea4d56d67a084c4b4f9a116 "pdflatex"
+  "frontiers.aux" 1699297888 6686 fe2a4c2224e092c00ea0cc5cbc309a2e "pdflatex"
   (generated)
   "frontiers.bbl"
   "frontiers.blg"
   (rewritten before read)
-["pdflatex"] 1699297693 "c:/Users/Usuario/Documents/GitHub/MODELOMAIZE/frontiers.tex" "frontiers.pdf" "frontiers" 1699297698 0
+["pdflatex"] 1699297883 "c:/Users/Usuario/Documents/GitHub/MODELOMAIZE/frontiers.tex" "frontiers.pdf" "frontiers" 1699297889 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136765053 960 379cc0019370a9e0208a0a3f949f847a ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136765053 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -271,12 +271,14 @@
   "C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/sttools/stfloats.sty" 1634199215 24057 ff20efb65b128d27c08eac20ec07f540 ""
   "C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "FrontiersinHarvard.cls" 1697171788 29639 f293301d2bfdd7ef6504ba9e80df61c1 ""
-  "c:/Users/Usuario/Documents/GitHub/MODELOMAIZE/frontiers.tex" 1699297683 27810 8741dfed7c12081073ef0a445f06a9e4 ""
-  "frontiers.aux" 1699297697 5917 dca5b65b0ea4d56d67a084c4b4f9a116 "pdflatex"
-  "frontiers.bbl" 1699297693 1268 40b3f0be6b7b82c16f33232e5d75b0f8 "bibtex frontiers"
-  "frontiers.out" 1699297697 3874 f1a85ed0dfd5e358cc150b33b9cacf1d "pdflatex"
-  "frontiers.tex" 1699297683 27810 8741dfed7c12081073ef0a445f06a9e4 ""
+  "c:/Users/Usuario/Documents/GitHub/MODELOMAIZE/frontiers.tex" 1699297864 29771 16fcfcd0814a7804ae22c42f9acc68ec ""
+  "frontiers.aux" 1699297888 6686 fe2a4c2224e092c00ea0cc5cbc309a2e "pdflatex"
+  "frontiers.bbl" 1699297883 1268 40b3f0be6b7b82c16f33232e5d75b0f8 "bibtex frontiers"
+  "frontiers.out" 1699297888 4500 a39cce4c9bb7560ea83c0a3040f39048 "pdflatex"
+  "frontiers.tex" 1699297864 29771 16fcfcd0814a7804ae22c42f9acc68ec ""
   "images/ciclomaiz.png" 1697599717 258053 9bb1bb6a11da2368f85b647486d59c99 ""
+  "images/fenologia.png" 1699297864 225597 0f97e381a6eaf6ea758882fe55ebaf7d ""
+  "images/maiz.jpg" 1699297864 11851 c5ee92ce249205034247552d8ded1f03 ""
   "images/morfologia.jpg" 1697599717 133672 29f6aed85745771719d45162d2c3e2c5 ""
   "logo1.eps" 1697171788 38401 776b4d7efab5d1912cafad2bab92a208 ""
   "logo1.pdf" 1697171788 27591 c9c324700d80d9ea6d7bfd29ab6a68a1 ""
