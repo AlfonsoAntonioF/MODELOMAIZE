@@ -14,11 +14,14 @@
 \documentclass[utf8]{FrontiersinHarvard} % for articles in journals using the Harvard Referencing Style (Author-Date), for Frontiers Reference Styles by Journal: https://zendesk.frontiersin.org/hc/en-us/articles/360017860337-Frontiers-Reference-Styles-by-Journal
 %\documentclass[utf8]{FrontiersinVancouver} % for articles in journals using the Vancouver Reference Style (Numbered), for Frontiers Reference Styles by Journal: https://zendesk.frontiersin.org/hc/en-us/articles/360017860337-Frontiers-Reference-Styles-by-Journal
 %\documentclass[utf8]{frontiersinFPHY_FAMS} % Vancouver Reference Style (Numbered) for articles in the journals "Frontiers in Physics" and "Frontiers in Applied Mathematics and Statistics" 
-
+\usepackage{amsmath}
 %\setcitestyle{square} % for articles in the journals "Frontiers in Physics" and "Frontiers in Applied Mathematics and Statistics" 
 \usepackage{url,hyperref,lineno,microtype,subcaption}
 \usepackage[onehalfspacing]{setspace}
-
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\graphicspath{ {images/} }
 \linenumbers
 
 
@@ -45,7 +48,7 @@ $^{2}$Laboratorio de modelación matematica,FCFM,BUAP,Puebla,Puebla  }
 \onecolumn
 \firstpage{1}
 
-\title[Running Title]{Un modelo de la producción de maíz en la región de San Pablo Zitlaltepec, considerando técnicas de conservación de suelo y actividades económicas derivadas.} 
+\title[Running Title]{Un modelo de la producción de maíz en la región de San Pablo Zitlaltepec, considerando técnicas de conservación de suelo y actividades económicas derivadas.}
 
 \author[\firstAuthorLast ]{\Authors} %This field will be automatically populated
 \address{} %This field will be automatically populated
@@ -60,17 +63,264 @@ $^{2}$Laboratorio de modelación matematica,FCFM,BUAP,Puebla,Puebla  }
 
 \begin{abstract}
 
-%%% Leave the Abstract empty if your article does not require one, please see the Summary Table for full details.
-\section{}
-aqui va un pequñio abtstract del trabajo
+    %%% Leave the Abstract empty if your article does not require one, please see the Summary Table for full details.
+    \section{}
+    La agricultura ha ayudado a la humanidad desde que comenzó la etapa del sedentarismo, 
+    y con ella el cereal más importante fue cultivado, el maíz, que nos ha acompañado desde ese 
+    acontecimiento, y lo hemos cambiado a nuestro beneficio, ya sea para obtener más producción 
+    o para que se acelere su crecimiento. En este trabajo se propone un modelo, basado en teoría 
+    matemática, para estimar el crecimiento de esta planta, para así poder estimar el tiempo 
+    óptimo en el cual se debe sembrar la semilla, para así poder obtener una producción mayor, 
+    teniendo como base el poblado de Zitlaltepec de Trinidad Sanchez Santos, perteneciente al 
+    estado de Tlaxcala; como variables tenemos: el numero de hojas, la temperatura, la precipitación
+    pluvial, la evaporación y las horas luz. 
 
-\tiny
- \keyFont{ \section{Keywords:} keyword, keyword, keyword, keyword, keyword, keyword, keyword, keyword} %All article types: you may provide up to 8 keywords; at least 5 are mandatory.
+
+    \tiny
+    \keyFont{ \section{Keywords:} Maiz, modelo , Zitlaltepec, agricultura} %All article types: you may provide up to 8 keywords; at least 5 are mandatory.
 \end{abstract}
 
 \section{Introduction}
 
-aqui va la intro  \citep{conference}, Clinical Trial Articles \citep{article}, and Technology Reports \citep{patent}, the introduction should be succinct, with no subheadings \citep{book}. For Case Reports the Introduction should include symptoms at presentation \citep{chapter}, physical exams and lab results \citep{dataset}.
+La producción de maíz es de gran importancia en Puebla, tanto desde el punto de vista alimentario como el económico y social \citep{Zepeda2020LaPE}. 
+Ya que, es un elemento fundamental en la dieta mexicana y juega un papel vital en la seguridad alimentaria del país. 
+Sin embargo, según un estudio realizado en el centro Oriente de Puebla, existe un déficit en la relación costo de producción/ingreso de venta, 
+lo que indica que el maíz es eficiente pero no rentable \citep{Cita1}.\\
+Aunado a esto la producción de maíz enfrenta desafíos diversos relacionados con factores climáticos, manejo de suelos, y prácticas agrícolas, entre otros.  A pesar de esto, se ha demostrado que, con incentivos a la producción, este cultivo puede ser competitivo [1]. 
+Además, la producción de maíz tiene un impacto positivo en la línea de bienestar de las familias productoras, ya que les permite superar la línea de pobreza extrema [2].\\
+Es importante destacar que la producción de maíz debe ser sostenible, abordando limitantes como la nutrición del cultivo, la calidad de siembra, la protección del cultivo y la elección del cultivar, entre otros [3]. 
+La evaluación de la sustentabilidad de los sistemas de producción de maíz en la Península de Yucatán demostró que el sistema alternativo es más sustentable que el convencional y el mecanizado [5].\\
+
+Un estudio realizado en Chiapas demostró que la producción de maíz sigue siendo redituable cuando no se considera el costo de la tierra, pero se obtienen pérdidas cuando se incluye este costo en los costos de producción [4].
+\\
+La importancia de los cultivos sustentables en México es innegable y está intrínsecamente ligada a la economía del país. En un contexto global en el que la sostenibilidad y la responsabilidad ambiental son temas cada vez más relevantes, los cultivos sustentables desempeñan un papel crucial en la preservación de los recursos naturales, el desarrollo económico y la seguridad alimentaria.
+\\
+Para abordar estos desafíos y optimizar la producción de algunos culivos, se han desarrollado diversos modelos matemáticos que ayudan a comprender y predecir mejor el comportamiento de este cultivo en algunas regiones.
+\\
+En este contexto, el presente trabajo se enfocará en proponer un modelo matemático que nos permita establecer el mejor periodo de siembra y así aumentar la producción de maíz en el municipio de San Pablo Zitlaltépetl en el estado de Tlaxcala. Este modelo pretende ser una herramienta útil para los agricultores de la zona, ya que permitira tomar decisiones para la planificación de siembras, gestión de recursos y mitigación de riesgos.
+
+
+
+
+
+% aqui va la intro  \citep{conference}, Clinical Trial Articles \citep{article}, and Technology Reports \citep{patent}, the introduction should be succinct, with no subheadings \citep{book}. For Case Reports the Introduction should include symptoms at presentation \citep{chapter}, physical exams and lab results \citep{dataset}.
+% sbdkjdsvjkfvkdsfvdkvfdhfvgdjk
+% esto es una prubea con MArco
+% hola mundo
+% vjvccgtdtydtydyt este es otro tramo
+
+\section{Información general del lugar}
+\subsection{Ubicación}
+El municipio de Zitlaltepec de Trinidad Sánchez Santos perteneciente a el estado de Tlaxcala se encuentra ubicado a 
+2540 metros sobre el nivel del mar, en las coordenadas geográficas 19 grados 12 minutos latitud norte y 97 grados 54 minutos longitud oeste.
+\subsection{Orografía e Hidrografía} 
+El relieve del municipio esta constituido principalmente por zonas accidentadas, pues estos comprendel el 80\% de la superficie.
+Por otro lado, los recurso hidrograficos del municipio son un arroyo que baja del manantial de La Malinche, arroyos de caudal durante la época de lluvias localizados en las barrancas El Calvario, El Jarrito, El Zitlaltepec y una barranca que nace del centro al sureste del municipio, mantos y pozos para extracción de agua. 
+\subsection{Clima y Pluvialidad}
+El clima se considera templado subhúmedo, con régimen de lluvias en los 
+meses de mayo a septiembre.
+La dirección de los vientos en general es de norte a sur, igualmente la temperatura 
+mínima promedio anual registrada es de 5.5 grados centígrados y la máxima de 21.9 grados 
+centígrados. La precipitación promedio mínima registrada es de 9.2 milímetros y la máxima de 151.0 milímetros.
+
+\subsection{Tipo y uso de suelo}
+En el municipio existen cuatro grandes tipos de suelos: 
+los fluvisoles, andosoles, regosoles y ranker. 
+Los suelos fluvisoles comprenden sedimentos aluviales poco desarrollados y profundos. 
+Los andosoles, son de sedimentos piroclásticos, por lo general bien desarrollados, 
+de profundidad media a profundos, muy sueltos. Los regosoles, son de sedimentos sueltos, 
+muy poco desarrollados, profundos, con horizonte A ócrico. 
+Los suelos tipo ranker son poco desarrollados, delgados a profundos, 
+poseen un horizonte A úmbrico con menos de 25 cm., de profundidad.
+Las unidades de producción rural en el municipio ocupan una superficie de 4 051 hectáreas, 
+cifra que representa el 1.7 por ciento de la superficie total del estado. 
+El total de dicha superficie municipal es de labor, son las tierras dedicadas a cultivos anuales 
+o de ciclo corto, frutales y plantaciones. 
+\\\\
+
+% Falta integrar la definicion de cada uno de los tipos de suelo existentes
+
+\section{Morfología y fisiología de la planta y grano de maíz}
+\subsection{Morfología}
+\begin{wrapfigure}{l}{0.43\textwidth} %this figure will be at the right
+    \centering
+    \includegraphics[width=0.45\textwidth]{./images/morfologia.jpg}
+\end{wrapfigure}
+
+\subsubsection{Raices} 
+    Son fasciculadas y su misión es aportar un perfecto anclaje a la planta, 
+    además de a absorción de nutrientes; conduciendo agua y sustancias disueltas, 
+    hacia el tallo y las hojas donde serán utilizadas. 
+    Cuando los granos germinan esta raíz fibrosa toma la iniciativa;
+     continua la aparición de varias raíces adventicias, 
+     hasta consolidarse el sistema radicular permanente.
+
+     \subsubsection{Tallo} 
+    El tallo del maíz crece a partir de la raíz, por sobre el suelo, 
+    es simple, erecto en forma de caña y macizo en su interior, 
+    es robusto y no presenta ramificaciones. Su función es la conducción de 
+    materiales desde la raíz hasta las hojas y de las hojas hacia la raíz. 
+    Aparte de la producción y soporte de hojas, la panoja o flor masculina terminal; 
+    las flores femeninas axilares y las mazorcas o frutos.
+    Constituye un tallo herbáceo de monocotiledónea, solido, de color verde. 
+    Con alturas medias entre 0,6 m. y hasta 4,5 m. dividido en nudos y 
+    entrenudos prominentes. A nivel del entrenudo se producen las yemas que originan las mazorcas 
+    o ramas tipo chupones ocasionales. 
+    \subsubsection{hojas} 
+    La función principal de la hoja es la Fotosíntesis y otra actividad 
+    importante es la transpiración; dividiéndose la hoja como tal, 
+    en tres partes bien diferenciadas:
+    \begin{itemize}
+        \item La lamina:Que es la parte más larga y delgada de la hoja.
+        \item La vaina: Que envuelve el tallo, y sujeta la hoja a la totalidad de la planta. 
+        \item El cuello: Es la zona de transición entre el tallo y la vaina, donde se encuentra la lígula, que evita que pase polvo y agua y se introduzcan entre el tallo y la vaina.
+        
+    \end{itemize}
+       \begin{wrapfigure}{r}{0.38\textwidth} %this figure will be at the right
+        \centering
+        \includegraphics[width=0.35\textwidth]{./images/maiz.jpg}
+    \end{wrapfigure} 
+    \subsubsection{Inflorescencia} 
+    Es una planta monoica pues presenta inflorescencia masculina y 
+    femenina separada dentro de la misma planta, 
+    lo cual ha facilitado el mejoramiento del maíz,  
+    mediante un proceso denominado hibridación.
+
+    
+    \subsubsection{Grano} 
+    El grano del maíz es un fruto Cariópside, seco, de una sola 
+    semilla que se da en una mazorca; la cubierta de la semilla (fruto) 
+    se llama pericarpio, es dura, por debajo se encuentra la capa de aleurona 
+    que le da color al grano 
+    (blanco, amarillo, azul, morado, entre otros). 
+
+
+\section{Estados Fenologicos del maiz }
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=.7]{./images/fenologia.png}
+\end{figure}
+\subsection{Ciclo del maiz}
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=.8]{./images/ciclomaiz.png}
+\end{figure}
+
+\section{Propuesta del modelo}
+Iniciaremos a construir el modelo por partes, primero partiremos de una aproximación lineal que simule el crecimiento de una sola planta de maíz hasta antes del inicio del periodo reproductivo.
+\\
+Considerando que el ciclo de producción del maíz desde la siembra hasta la cosecha es un tiempo promedio de 180 a 200 días, consideraremos el número máximo de hojas de la planta como un indicador de maduración antes del inicio de la etapa de desarrollo reproductivo (que inicia a partir del día 60-65 aproximadamente), obteniendo un máximo de 24 hojas.
+\\Para ello tomaremos el promedio de días en que una mata genera un par de hojas bajo lo siguiente:
+\begin{itemize}
+    \item El promedio de días que lleva generar una nueva hoja en la etapa de desarrollo vegetativo inicial es de aproximadamente 3 a 4 días [12][14]. 
+    \item Durante la etapa de desarrollo vegetativo activo, las hojas se despliegan rápidamente, con la aparición de una nueva hoja cada 2 a 3 días [12].
+    
+\end{itemize}
+Para esto consideraremos parámetros como:
+\begin{itemize}
+    \item 	La maduración estará determinada por el número de hojas y la denotaremos como $m$. 
+    \item 	El número de hojas pares $N_H$.
+    \item 	La temperatura en $^{\circ}C$ denotada como $T$.
+    \item 	La precipitación pluvial en milímetros ($mm$) y se denotara como $P_p$ 
+    \item 	Evaporación en milímetros ($mm$) denotada como $E_p$.
+    \item 	Horas luz denotado por $H_l$.
+\end{itemize}
+
+Todos los parametros dependerán  del tiempo $t$.\\
+Vamos a considerar una aproximación de la siguiente forma 
+\begin{equation}
+    m(t)= F(t,T(t),P_p(t),E_p(t),H_l(t))
+    \label{eq:aproximacion}
+\end{equation}
+Realizando la aproximación mediante regresion lineal multiple se pretende obtener algo como:
+\begin{equation}
+    m(t)=\alpha_i (m,T,P_p,N_H)
+    \label{eq:aproximacionRLM}
+\end{equation}
+
+Donde cada $\alpha_i$ será una constante a trozos por etapas de maduración.Y así poder obtener una ecuación diferencial de la forma [insertar número de ecuación], en donde el indicador de maduración m será el número de hojas pares $N_H$, quedando como:
+\begin{equation}
+    \frac{dN_H}{dt}=\alpha_i \begin{pmatrix}
+        T(t)  
+        \\ P_p(t)
+        \\E_p(t)
+        \\H_l(t)
+    \end{pmatrix}
+\end{equation}
+Y el $\alpha_i$ quedara determinado como:
+\begin{equation}
+    \alpha_i(N_H,t)= \left\{ \begin{array}{lcc} \alpha_{i,2} & si & 0 \leq N_H < 2, \ t \in (0,\tau_1) \\ \\ 
+        \vdots \\ \\ 
+        \alpha_{i,24} & si & 22 \leq N_H < 24, \ t \in (\tau_{22},\tau_{24})
+    \end{array} \right.
+\end{equation}
+
+\begin{figure}[h]
+    \centering
+
+\begin{tikzpicture}
+    \begin{axis}[
+        xlabel={$t_i$},
+        ylabel={$N_H$},
+        axis lines=middle,
+        enlargelimits=false,
+        grid=none,
+        width=17cm,
+        height=10cm,
+        domain=0:67, % Rango del eje x
+        samples=200, % Número de puntos para dibujar la curva
+    ]
+    
+    % Definir funciones constantes por partes
+    \addplot+[mark=none, thick, domain=1:7] {0}; % y = 1 para 1 <= x < 7
+    %\addplot+[mark=none, thick, domain=5:11]{0};
+    
+    \addplot+[mark=none, thick, domain=7:11] {1}; % y = 3 para 5 <= x < 11
+    %\addplot+[mark=none, thick, domain=8:15]{1};
+    
+    \addplot+[mark=none, thick, domain=11:15] {2}; % y = 0 para 5 <= x <= 10
+    %\addplot+[mark=none, thick, domain=11:19]{2};
+    
+    \addplot+[mark=none, thick, domain=15:19] {3}; % y = 1 para 0 <= x < 2
+    %\addplot+[mark=none, thick, domain=14:23]{3};
+    
+    \addplot+[mark=none, thick, domain=19:23] {4}; % y = 3 para 2 <= x < 5
+    %\addplot+[mark=none, thick, domain=17:27]{4};
+    
+    %-----------------------------------------------------------------
+    \addplot+[mark=none, thick, domain=24:25] {5}; % y = 0 para 5 <= x <= 10
+    %\addplot+[mark=none, thick, domain=22:28] {5};
+    
+    \addplot+[mark=none, thick, domain=26:27] {6}; % y = 1 para 0 <= x < 2
+    %\addplot+[mark=none, thick, domain=24:30] {6};
+    
+    \addplot+[mark=none, thick, domain=28:29] {7}; % y = 3 para 2 <= x < 5
+    \addplot+[mark=none, thick, domain=30:31] {8}; % y = 0 para 5 <= x <= 10
+    \addplot+[mark=none, thick, domain=32:33] {9}; % y = 1 para 0 <= x < 2
+    \addplot+[mark=none, thick, domain=34:35] {10}; % y = 3 para 2 <= x < 5
+    \addplot+[mark=none, thick, domain=36:37] {11}; % y = 0 para 5 <= x <= 10
+    \addplot+[mark=none, thick, domain=38:39] {12}; % y = 1 para 0 <= x < 2
+    \addplot+[mark=none, thick, domain=40:41] {13}; % y = 3 para 2 <= x < 5
+    \addplot+[mark=none, thick, domain=42:43] {14}; % y = 0 para 5 <= x <= 10
+    \addplot+[mark=none, thick, domain=44:45] {15}; % y = 1 para 0 <= x < 2
+    \addplot+[mark=none, thick, domain=46:47] {16}; % y = 3 para 2 <= x < 5
+    \addplot+[mark=none, thick, domain=48:49] {17}; % y = 0 para 5 <= x <= 10
+    \addplot+[mark=none, thick, domain=50:51] {18}; % y = 1 para 0 <= x < 2
+    \addplot+[mark=none, thick, domain=52:53] {19}; % y = 3 para 2 <= x < 5
+    \addplot+[mark=none, thick, domain=54:55] {20}; % y = 0 para 5 <= x <= 10
+    \addplot+[mark=none, thick, domain=56:57] {21}; % y = 0 para 5 <= x <= 10
+    \addplot+[mark=none, thick, domain=58:59] {22}; % y = 0 para 5 <= x <= 10
+    \addplot+[mark=none, thick, domain=60:61] {23}; % y = 0 para 5 <= x <= 10
+    \addplot+[mark=none, thick, domain=62:63] {24}; % y = 0 para 5 <= x <= 10
+    \addplot+[mark=none, thick, domain=64:65] {24}; % y = 0 para 5 <= x <= 10
+    
+    \end{axis}
+    \end{tikzpicture}
+    \caption{Tiempo en desarrollar un par de hojas}
+    \label{fig:aproximacionlineal}
+\end{figure}
+
+
 
 
 
@@ -95,7 +345,7 @@ For requirements for a specific article type please refer to the Article Types o
 Equations should be inserted in editable format from the equation editor.
 
 \begin{equation}
-\sum x+ y =Z\label{eq:01}
+    \sum x+ y =Z\label{eq:01}
 \end{equation}
 
 \subsection{Figures}
@@ -107,11 +357,11 @@ Figures, tables, and images will be published under a Creative Commons CC-BY lic
 %%Figures, tables, and images will be published under a Creative Commons CC-BY licence and permission must be obtained for use of copyrighted material from other sources (including re-published/adapted/modified/partial figures and images from the internet). It is the responsibility of the authors to acquire the licenses, to follow any citation instructions requested by third-party rights holders, and cover any supplementary charges.
 
 \subsection{Tables}
-Tables should be inserted at the end of the manuscript. Please build your table directly in LaTeX.Tables provided as jpeg/tiff files will not be accepted. Please note that very large tables (covering several pages) cannot be included in the final PDF for reasons of space. These tables will be published as \href{http://home.frontiersin.org/about/author-guidelines#SupplementaryMaterial}{Supplementary Material} on the online article page at the time of acceptance. The author will be notified during the typesetting of the final article if this is the case. 
+Tables should be inserted at the end of the manuscript. Please build your table directly in LaTeX.Tables provided as jpeg/tiff files will not be accepted. Please note that very large tables (covering several pages) cannot be included in the final PDF for reasons of space. These tables will be published as \href{http://home.frontiersin.org/about/author-guidelines#SupplementaryMaterial}{Supplementary Material} on the online article page at the time of acceptance. The author will be notified during the typesetting of the final article if this is the case.
 
 \subsection{International Phonetic Alphabet}
 To include international phonetic alphabet (IPA) symbols, please include the following functions:
-Under useful packages, include:\begin{verbatim}\usepackage{tipa}\end{verbatim} 
+Under useful packages, include:\begin{verbatim}\usepackage{tipa}\end{verbatim}
 In the main text, when inputting symbols, use the following format:\begin{verbatim}\text[symbolname]\end{verbatim}e.g.\begin{verbatim}\textgamma\end{verbatim}
 
 \section{Nomenclature}
@@ -143,7 +393,7 @@ Details of all funding sources should be provided, including grant numbers if ap
 This is a short text to acknowledge the contributions of specific colleagues, institutions, or agencies that aided the efforts of the authors.
 
 \section*{Supplemental Data}
- \href{http://home.frontiersin.org/about/author-guidelines#SupplementaryMaterial}{Supplementary Material} should be uploaded separately on submission, if there are Supplementary Figures, please include the caption in the same file as the figure. LaTeX Supplementary Material templates can be found in the Frontiers LaTeX folder.
+\href{http://home.frontiersin.org/about/author-guidelines#SupplementaryMaterial}{Supplementary Material} should be uploaded separately on submission, if there are Supplementary Figures, please include the caption in the same file as the figure. LaTeX Supplementary Material templates can be found in the Frontiers LaTeX folder.
 
 \section*{Data Availability Statement}
 The datasets [GENERATED/ANALYZED] for this study can be found in the [NAME OF REPOSITORY] [LINK].
@@ -165,34 +415,34 @@ The datasets [GENERATED/ANALYZED] for this study can be found in the [NAME OF RE
 %%%  NB logo1.eps is required in the path in order to correctly compile front page header %%%
 
 \begin{figure}[h!]
-\begin{center}
-\includegraphics[width=10cm]{logo1}% This is a *.eps file
-\end{center}
-\caption{ Enter the caption for your figure here.  Repeat as  necessary for each of your figures}\label{fig:1}
+    \begin{center}
+        \includegraphics[width=10cm]{logo1}% This is a *.eps file
+    \end{center}
+    \caption{ Enter the caption for your figure here.  Repeat as  necessary for each of your figures}\label{fig:1}
 \end{figure}
 
 \setcounter{figure}{2}
 \setcounter{subfigure}{0}
 \begin{subfigure}
-\setcounter{figure}{2}
-\setcounter{subfigure}{0}
+    \setcounter{figure}{2}
+    \setcounter{subfigure}{0}
     \centering
     \begin{minipage}[b]{0.5\textwidth}
         \includegraphics[width=\linewidth]{logo1.eps}
         \caption{This is Subfigure 1.}
         \label{fig:Subfigure 1}
-    \end{minipage}  
-   
-\setcounter{figure}{2}
-\setcounter{subfigure}{1}
+    \end{minipage}
+
+    \setcounter{figure}{2}
+    \setcounter{subfigure}{1}
     \begin{minipage}[b]{0.5\textwidth}
         \includegraphics[width=\linewidth]{logo2.eps}
         \caption{This is Subfigure 2.}
         \label{fig:Subfigure 2}
     \end{minipage}
 
-\setcounter{figure}{2}
-\setcounter{subfigure}{-1}
+    \setcounter{figure}{2}
+    \setcounter{subfigure}{-1}
     \caption{Enter the caption for your subfigure here. \textbf{(A)} This is the caption for Subfigure 1. \textbf{(B)} This is the caption for Subfigure 2.}
     \label{fig: subfigures}
 \end{subfigure}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.12)  6 NOV 2023 13:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.12)  6 NOV 2023 13:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -449,72 +449,301 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
 )) (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Program Files\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+ (C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks41
+\pgfutil@tempdima=\dimen178
+\pgfutil@tempdimb=\dimen179
+) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box66
+) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks42
+\pgfkeys@temptoks=\toks43
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks44
+))
+\pgf@x=\dimen180
+\pgf@y=\dimen181
+\pgf@xa=\dimen182
+\pgf@ya=\dimen183
+\pgf@xb=\dimen184
+\pgf@yb=\dimen185
+\pgf@xc=\dimen186
+\pgf@yc=\dimen187
+\pgf@xd=\dimen188
+\pgf@yd=\dimen189
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count330
+\c@pgf@countb=\count331
+\c@pgf@countc=\count332
+\c@pgf@countd=\count333
+\t@pgf@toka=\toks45
+\t@pgf@tokb=\toks46
+\t@pgf@tokc=\toks47
+\pgf@sys@id@count=\count334
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 44.
+Driver file for pgf: pgfsys-pdftex.def
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count335
+\pgfsyssoftpath@bigbuffer@items=\count336
+) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen190
+\pgfmath@count=\count337
+\pgfmath@box=\box67
+\pgfmath@toks=\toks48
+\pgfmath@stack@operand=\toks49
+\pgfmath@stack@operation=\toks50
+) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count338
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen191
+\pgf@picmaxx=\dimen192
+\pgf@picminy=\dimen193
+\pgf@picmaxy=\dimen194
+\pgf@pathminx=\dimen195
+\pgf@pathmaxx=\dimen196
+\pgf@pathminy=\dimen197
+\pgf@pathmaxy=\dimen198
+\pgf@xx=\dimen199
+\pgf@xy=\dimen256
+\pgf@yx=\dimen257
+\pgf@yy=\dimen258
+\pgf@zx=\dimen259
+\pgf@zy=\dimen260
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen261
+\pgf@path@lasty=\dimen262
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen263
+\pgf@shorten@start@additional=\dimen264
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box68
+\pgf@hbox=\box69
+\pgf@layerbox@main=\box70
+\pgf@picture@serial@count=\count339
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen265
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen266
+\pgf@pt@y=\dimen267
+\pgf@pt@temp=\dimen268
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen269
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen270
+\pgf@sys@shading@range@num=\count340
+\pgf@shadingcount=\count341
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box71
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box72
+) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen271
+\pgf@nodesepend=\dimen272
+) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen273
+\pgffor@skip=\dimen274
+\pgffor@stack=\toks51
+\pgffor@toks=\toks52
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count342
+\pgfplotmarksize=\dimen275
+)
+\tikz@lastx=\dimen276
+\tikz@lasty=\dimen277
+\tikz@lastxsaved=\dimen278
+\tikz@lastysaved=\dimen279
+\tikz@lastmovetox=\dimen280
+\tikz@lastmovetoy=\dimen281
+\tikzleveldistance=\dimen282
+\tikzsiblingdistance=\dimen283
+\tikz@figbox=\box73
+\tikz@figbox@bg=\box74
+\tikz@tempbox=\box75
+\tikz@tempbox@bg=\box76
+\tikztreelevel=\count343
+\tikznumberofchildren=\count344
+\tikznumberofcurrentchild=\count345
+\tikz@fig@count=\count346
+ (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count347
+\pgfmatrixcurrentcolumn=\count348
+\pgf@matrix@numberofcolumns=\count349
+)
+\tikz@expandcount=\count350
+ (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
+\t@pgfplots@toka=\toks53
+\t@pgfplots@tokb=\toks54
+\t@pgfplots@tokc=\toks55
+\pgfplots@tmpa=\dimen284
+\c@pgfplots@coordindex=\count351
+\c@pgfplots@scanlineindex=\count352
+ (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks56
+\t@pgf@tokb=\toks57
+\t@pgf@tokc=\toks58
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count353
+) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count354
+\t@pgfplotstable@a=\toks59
+) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count355
+ (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen285
+\pgfdecoratedremainingdistance=\dimen286
+\pgfdecoratedinputsegmentcompleteddistance=\dimen287
+\pgfdecoratedinputsegmentremainingdistance=\dimen288
+\pgf@decorate@distancetomove=\dimen289
+\pgf@decorate@repeatstate=\count356
+\pgfdecorationsegmentamplitude=\dimen290
+\pgfdecorationsegmentlength=\dimen291
+)
+\tikz@lib@dec@box=\box77
+) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count357
+\pgfplots@xmin@reg=\dimen292
+\pgfplots@xmax@reg=\dimen293
+\pgfplots@ymin@reg=\dimen294
+\pgfplots@ymax@reg=\dimen295
+\pgfplots@zmin@reg=\dimen296
+\pgfplots@zmax@reg=\dimen297
+) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen298
+\WF@size=\dimen299
+\c@WF@wrappedlines=\count358
+\WF@box=\box78
+\WF@everypar=\toks60
+Package: wrapfig 2003/01/31  v 3.6
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 47.
  (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count330
-\l__pdf_internal_box=\box66
+\l__color_backend_stack_int=\count359
+\l__pdf_internal_box=\box79
 ) (frontiers.aux)
 \openout1 = `frontiers.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count331
-\scratchdimen=\dimen178
-\scratchbox=\box67
-\nofMPsegments=\count332
-\nofMParguments=\count333
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count334
-\MPscratchDim=\dimen179
-\MPnumerator=\count335
-\makeMPintoPDFobject=\count336
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count360
+\scratchdimen=\dimen300
+\scratchbox=\box80
+\nofMPsegments=\count361
+\nofMParguments=\count362
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count363
+\MPscratchDim=\dimen301
+\MPnumerator=\count364
+\makeMPintoPDFobject=\count365
+\everyMPtoPDFconversion=\toks62
 )
-Package crop Info: requested driver: `' on input line 44.
-Package crop Info: detected driver: `pdftex' on input line 44.
-Package crop Info: using `pdftex' graphics driver on input line 44.
+Package crop Info: requested driver: `' on input line 47.
+Package crop Info: detected driver: `pdftex' on input line 47.
+Package crop Info: using `pdftex' graphics driver on input line 47.
  (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/fmtcount\fc-english.def
 File: fc-english.def 2016/01/12
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 44.
+Package hyperref Info: Link coloring OFF on input line 47.
  (frontiers.out) (frontiers.out)
-\@outlinefile=\write3
-\openout3 = `frontiers.out'.
+\@outlinefile=\write4
+\openout4 = `frontiers.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 44.
-Package microtype Info: Applying patch `item' on input line 44.
-Package microtype Info: Applying patch `toc' on input line 44.
-Package microtype Info: Applying patch `eqnum' on input line 44.
+LaTeX Info: Redefining \microtypecontext on input line 47.
+Package microtype Info: Applying patch `item' on input line 47.
+Package microtype Info: Applying patch `toc' on input line 47.
+Package microtype Info: Applying patch `eqnum' on input line 47.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 44.
+Package microtype Warning: Unable to apply patch `footnote' on input line 47.
 
-Package microtype Info: Applying patch `verbatim' on input line 44.
+Package microtype Info: Applying patch `verbatim' on input line 47.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2),
 (microtype)             factor: 1500.
@@ -522,15 +751,19 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 44.
+LaTeX Info: Redefining \showhyphens on input line 47.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 59.
- (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1phv.fd
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
+ on input line 47.
+
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 62.
+(C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -544,55 +777,148 @@ Package epstopdf Info: Source file: <./logo1.eps>
 (epstopdf)                    date: 2023-10-12 22:36:28
 (epstopdf)                    size: 24813 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./logo1-eps-converted-to.pdf ./logo1.eps>
-(epstopdf)             \includegraphics on input line 59.
+(epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
-<./logo1-eps-converted-to.pdf, id=67, 284.06125pt x 80.3pt>
+<./logo1-eps-converted-to.pdf, id=130, 284.06125pt x 80.3pt>
 File: ./logo1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./logo1-eps-converted-to.pdf>
-Package pdftex.def Info: ./logo1-eps-converted-to.pdf  used on input line 59.
+Package pdftex.def Info: ./logo1-eps-converted-to.pdf  used on input line 62.
 (pdftex.def)             Requested size: 144.0pt x 40.70862pt.
 
-Underfull \hbox (badness 10000) detected at line 59
+Underfull \hbox (badness 10000) detected at line 62
 []
  []
 
 
-Overfull \hbox (8.53581pt too wide) in paragraph at lines 59--59
+Overfull \hbox (8.53581pt too wide) in paragraph at lines 62--62
 [][] 
  []
 
 (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Underfull \hbox (badness 10000) detected at line 59
+Underfull \hbox (badness 10000) detected at line 62
 []
  []
 
-LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <12> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 91.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 92.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 85--93
 
- [1
+ []
+
+[1
 
 
 
 {C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc} <./logo1-eps-converted-to.pdf>]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 114.
+Underfull \hbox (badness 10000) in paragraph at lines 127--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--140
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <11> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 140.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+ [2]
+<./images/morfologia.jpg, id=157, 1084.05pt x 888.31876pt>
+File: ./images/morfologia.jpg Graphic file (type jpg)
+<use ./images/morfologia.jpg>
+Package pdftex.def Info: ./images/morfologia.jpg  used on input line 147.
+(pdftex.def)             Requested size: 226.79846pt x 185.8476pt.
+
+Overfull \hbox (10.08215pt too wide) in paragraph at lines 147--148
+ [][] 
+ []
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 150.
+
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 174.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 174.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
+(Font)              size <5> substituted on input line 174.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 174.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 179.
+
+<./images/maiz.jpg, id=158, 261.22594pt x 243.91125pt>
+File: ./images/maiz.jpg Graphic file (type jpg)
+<use ./images/maiz.jpg>
+Package pdftex.def Info: ./images/maiz.jpg  used on input line 181.
+(pdftex.def)             Requested size: 176.40308pt x 164.71114pt.
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 183.
+
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+ [3 <./images/morfologia.jpg> <./images/maiz.jpg>]
+<./images/fenologia.png, id=166, 723.9045pt x 259.56975pt>
+File: ./images/fenologia.png Graphic file (type png)
+<use ./images/fenologia.png>
+Package pdftex.def Info: ./images/fenologia.png  used on input line 201.
+(pdftex.def)             Requested size: 506.72969pt x 181.69757pt.
+
+Overfull \hbox (2.72969pt too wide) in paragraph at lines 201--202
+ [][] 
+ []
+
+<./images/ciclomaiz.png, id=167, 442.0515pt x 430.60875pt>
+File: ./images/ciclomaiz.png Graphic file (type png)
+<use ./images/ciclomaiz.png>
+Package pdftex.def Info: ./images/ciclomaiz.png  used on input line 206.
+(pdftex.def)             Requested size: 353.64168pt x 344.48746pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+ [4 <./images/fenologia.png>]
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+ [5 <./images/ciclomaiz.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+ [6]
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <12> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 341.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 342.
+
+Overfull \vbox (3.49998pt too high) has occurred while \output is active []
+
+ [7]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 364.
  (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
@@ -600,20 +926,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <11> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 115.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
- [2]
-Overfull \vbox (3.49998pt too high) has occurred while \output is active []
-
- [3] (frontiers.bbl)
-<logo1.pdf, id=138, 284.06125pt x 80.3pt>
+ [8] (frontiers.bbl)
+<logo1.pdf, id=219, 284.06125pt x 80.3pt>
 File: logo1.pdf Graphic file (type pdf)
 <use logo1.pdf>
-Package pdftex.def Info: logo1.pdf  used on input line 169.
+Package pdftex.def Info: logo1.pdf  used on input line 419.
 (pdftex.def)             Requested size: 284.52756pt x 80.43947pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package epstopdf Info: Source file: <logo1.eps>
 (epstopdf)                    date: 2023-10-12 22:36:28
 (epstopdf)                    size: 38401 bytes
@@ -621,14 +946,14 @@ Package epstopdf Info: Source file: <logo1.eps>
 (epstopdf)                    date: 2023-10-12 22:36:28
 (epstopdf)                    size: 24813 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=logo1-eps-converted-to.pdf logo1.eps>
-(epstopdf)             \includegraphics on input line 181.
+(epstopdf)             \includegraphics on input line 431.
 Package epstopdf Info: Output file is already uptodate.
-<logo1-eps-converted-to.pdf, id=139, 284.06125pt x 80.3pt>
+<logo1-eps-converted-to.pdf, id=220, 284.06125pt x 80.3pt>
 File: logo1-eps-converted-to.pdf Graphic file (type pdf)
 <use logo1-eps-converted-to.pdf>
-Package pdftex.def Info: logo1-eps-converted-to.pdf  used on input line 181.
+Package pdftex.def Info: logo1-eps-converted-to.pdf  used on input line 431.
 (pdftex.def)             Requested size: 252.0pt x 71.24008pt.
-Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on input line 182.
+Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on input line 432.
 Package epstopdf Info: Source file: <logo2.eps>
 (epstopdf)                    date: 2023-10-12 22:36:28
 (epstopdf)                    size: 22086 bytes
@@ -636,14 +961,13 @@ Package epstopdf Info: Source file: <logo2.eps>
 (epstopdf)                    date: 2023-10-12 22:36:28
 (epstopdf)                    size: 10360 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=logo2-eps-converted-to.pdf logo2.eps>
-(epstopdf)             \includegraphics on input line 189.
+(epstopdf)             \includegraphics on input line 439.
 Package epstopdf Info: Output file is already uptodate.
-<logo2-eps-converted-to.pdf, id=140, 70.2625pt x 79.29625pt>
+<logo2-eps-converted-to.pdf, id=221, 70.2625pt x 79.29625pt>
 File: logo2-eps-converted-to.pdf Graphic file (type pdf)
 <use logo2-eps-converted-to.pdf>
-Package pdftex.def Info: logo2-eps-converted-to.pdf  used on input line 189.
+Package pdftex.def Info: logo2-eps-converted-to.pdf  used on input line 439.
 (pdftex.def)             Requested size: 252.0pt x 284.44862pt.
-
 
 Package caption Warning: Unused \captionsetup[sub] on input line 20.
 See the caption package documentation for explanation.
@@ -651,32 +975,34 @@ See the caption package documentation for explanation.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
- [4 <./logo1.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+ [9]
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
- [5 <./logo1-eps-converted-to.pdf> <./logo2-eps-converted-to.pdf>] (frontiers.aux)
+ [10 <./logo1.pdf> <./logo1-eps-converted-to.pdf> <./logo2-eps-converted-to.pdf>] (frontiers.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.5pt have occurred.
+
 Package rerunfilecheck Info: File `frontiers.out' has not changed.
-(rerunfilecheck)             Checksum: FBDCD0BCC4C9CF738695C24E71A5A9DD;2233.
+(rerunfilecheck)             Checksum: A39CCE4C9BB7560EA83C0A3040F39048;4500.
  ) 
 Here is how much of TeX's memory you used:
- 16308 strings out of 475247
- 258890 string characters out of 5767600
- 1930785 words of memory out of 5000000
- 37336 multiletter control sequences out of 15000+600000
- 594316 words of font info for 187 fonts, out of 8000000 for 9000
+ 36932 strings out of 475247
+ 831495 string characters out of 5767600
+ 1957785 words of memory out of 5000000
+ 57521 multiletter control sequences out of 15000+600000
+ 600400 words of font info for 245 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 87i,8n,131p,1063b,670s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on frontiers.pdf (5 pages, 251853 bytes).
+ 99i,11n,131p,1083b,2059s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on frontiers.pdf (10 pages, 925350 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 67733 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 330 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
+ 69421 words of extra memory for PDF output out of 74296 (max. 10000000)
 
