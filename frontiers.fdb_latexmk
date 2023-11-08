@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex frontiers"] 1699412546 "frontiers.aux" "frontiers.bbl" "frontiers" 1699413255 0
+["bibtex frontiers"] 1699466478 "frontiers.aux" "frontiers.bbl" "frontiers" 1699466483 0
   "./Frontiers-Harvard.bst" 1697171788 33209 1341c127ed7af43085eb64600f38bbe5 ""
   "./test.bib" 1699412540 3867 70cb8e84203d6b991f162a7eb7f63ea0 ""
-  "frontiers.aux" 1699413254 3922 6fc21a1644fe5e982803dd994002ffa6 "pdflatex"
+  "frontiers.aux" 1699466482 3922 6fc21a1644fe5e982803dd994002ffa6 "pdflatex"
   (generated)
   "frontiers.bbl"
   "frontiers.blg"
   (rewritten before read)
-["pdflatex"] 1699413250 "c:/Users/Usuario/Documents/GitHub/MODELOMAIZE/frontiers.tex" "frontiers.pdf" "frontiers" 1699413255 0
+["pdflatex"] 1699466478 "c:/Users/Usuario/Documents/GitHub/MODELOMAIZE/frontiers.tex" "frontiers.pdf" "frontiers" 1699466483 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136793854 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136793854 4484 b828043cbd581d289d955903c1339981 ""
@@ -216,7 +216,7 @@
   "C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Program Files/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Program Files/MiKTeX/tex/xelatex/xetexconfig/crop.cfg" 1169250894 305 57c5d049d73b46b49f97b41eaa29558b ""
-  "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1697597458 82507 a9eef8696c92627b87e9975edea03b2a ""
+  "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1699462328 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Usuario/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1697145256 24132141 46e258bf6df20c6354b9e30e2a1070b2 ""
   "C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty" 1576433602 40635 c40361e206be584d448876bba8a64a3b ""
   "C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/bitset/bitset.sty" 1575926576 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
@@ -266,11 +266,11 @@
   "C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/sttools/stfloats.sty" 1634199215 24057 ff20efb65b128d27c08eac20ec07f540 ""
   "C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "FrontiersinHarvard.cls" 1697171788 29639 f293301d2bfdd7ef6504ba9e80df61c1 ""
-  "c:/Users/Usuario/Documents/GitHub/MODELOMAIZE/frontiers.tex" 1699413246 30459 141b89fd2fe1c84b574701cc35d117c4 ""
-  "frontiers.aux" 1699413254 3922 6fc21a1644fe5e982803dd994002ffa6 "pdflatex"
-  "frontiers.bbl" 1699412546 2229 263583200ac36b5a5e041391c949041a "bibtex frontiers"
-  "frontiers.out" 1699413254 2543 29b2f52a7b8f79f8ca7a762bed824b1e "pdflatex"
-  "frontiers.tex" 1699413246 30459 141b89fd2fe1c84b574701cc35d117c4 ""
+  "c:/Users/Usuario/Documents/GitHub/MODELOMAIZE/frontiers.tex" 1699466472 30459 141b89fd2fe1c84b574701cc35d117c4 ""
+  "frontiers.aux" 1699466482 3922 6fc21a1644fe5e982803dd994002ffa6 "pdflatex"
+  "frontiers.bbl" 1699466478 2229 263583200ac36b5a5e041391c949041a "bibtex frontiers"
+  "frontiers.out" 1699466482 2543 29b2f52a7b8f79f8ca7a762bed824b1e "pdflatex"
+  "frontiers.tex" 1699466472 30459 141b89fd2fe1c84b574701cc35d117c4 ""
   "images/ciclomaiz.png" 1699298090 258053 9bb1bb6a11da2368f85b647486d59c99 ""
   "images/fenologia.png" 1699298090 225597 0f97e381a6eaf6ea758882fe55ebaf7d ""
   "images/maiz.jpg" 1699298090 11851 c5ee92ce249205034247552d8ded1f03 ""
