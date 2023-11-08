@@ -485,52 +485,12 @@ INPUT .\images\ciclomaiz.png
 INPUT .\images\ciclomaiz.png
 INPUT .\images\ciclomaiz.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvbo7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvro7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvbo7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvbo8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvro7t.vf
-INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1pcr.fd
-INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1pcr.fd
-INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1pcr.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\courier\pcrr7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
 INPUT .\frontiers.bbl
 INPUT .\frontiers.bbl
 INPUT frontiers.bbl
-INPUT .\logo1.pdf
-INPUT .\logo1.pdf
-INPUT .\logo1.pdf
-INPUT .\logo1.pdf
-INPUT .\logo1.pdf
-INPUT .\logo1.eps
-INPUT .\logo1.eps
-INPUT .\logo1.eps
-INPUT .\logo1.eps
-INPUT .\logo1.eps
-INPUT .\logo1-eps-converted-to.pdf
-INPUT .\logo1-eps-converted-to.pdf
-INPUT .\logo1.eps
-INPUT .\logo1-eps-converted-to.pdf
-INPUT .\logo1-eps-converted-to.pdf
-INPUT .\logo1-eps-converted-to.pdf
-INPUT .\logo1-eps-converted-to.pdf
-INPUT .\logo2.eps
-INPUT .\logo2.eps
-INPUT .\logo2.eps
-INPUT .\logo2.eps
-INPUT .\logo2.eps
-INPUT .\logo2-eps-converted-to.pdf
-INPUT .\logo2-eps-converted-to.pdf
-INPUT .\logo2.eps
-INPUT .\logo2-eps-converted-to.pdf
-INPUT .\logo2-eps-converted-to.pdf
-INPUT .\logo2-eps-converted-to.pdf
-INPUT .\logo2-eps-converted-to.pdf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT frontiers.aux
@@ -550,8 +510,6 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\helvetic\uhvbo8a.pfb
