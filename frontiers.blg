@@ -8,45 +8,45 @@ Database file #1: test.bib
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Warning--empty booktitle in Zepeda2020LaPE
 Warning--empty pages in Zepeda2020LaPE
-You've used 2 entries,
+You've used 5 entries,
             3029 wiz_defined-function locations,
-            623 strings with 5291 characters,
-and the built_in function-call counts, 1303 in all, are:
-= -- 97
-> -- 79
+            640 strings with 5923 characters,
+and the built_in function-call counts, 3007 in all, are:
+= -- 232
+> -- 181
 < -- 0
-+ -- 38
-- -- 22
-* -- 95
-:= -- 196
-add.period$ -- 3
-call.type$ -- 2
-change.case$ -- 17
-chr.to.int$ -- 3
-cite$ -- 6
-duplicate$ -- 85
-empty$ -- 84
-format.name$ -- 27
-if$ -- 252
++ -- 86
+- -- 49
+* -- 221
+:= -- 457
+add.period$ -- 9
+call.type$ -- 5
+change.case$ -- 41
+chr.to.int$ -- 6
+cite$ -- 12
+duplicate$ -- 202
+empty$ -- 195
+format.name$ -- 63
+if$ -- 588
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 19
-newline$ -- 25
-num.names$ -- 8
-pop$ -- 57
+missing$ -- 43
+newline$ -- 43
+num.names$ -- 20
+pop$ -- 126
 preamble$ -- 1
-purify$ -- 15
+purify$ -- 36
 quote$ -- 0
-skip$ -- 49
+skip$ -- 112
 stack$ -- 0
-substring$ -- 22
-swap$ -- 35
+substring$ -- 55
+swap$ -- 83
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
+type$ -- 45
 warning$ -- 2
-while$ -- 6
+while$ -- 15
 width$ -- 0
-write$ -- 38
+write$ -- 77
 (There were 2 warnings)
