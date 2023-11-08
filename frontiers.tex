@@ -21,6 +21,7 @@
 \usepackage{pgfplots}
 \usepackage{graphicx}
 \usepackage{wrapfig}
+\usepackage[spanish,es-tabla]{babel}
 \graphicspath{ {images/} }
 \linenumbers
 
@@ -201,10 +202,139 @@ o de ciclo corto, frutales y plantaciones.
     \includegraphics[scale=.7]{./images/fenologia.png}
 \end{figure}
 \subsection{Ciclo del maiz}
-\begin{figure}[h]
+\begin{figure}[h!]
     \centering
-    \includegraphics[scale=.8]{./images/ciclomaiz.png}
+    \includegraphics[scale=0.5]{./images/ciclomaiz.png}
 \end{figure}
+
+
+
+
+\section{Datos}
+Para la obtencion de los datos del crecimiento utilizaremos los datos 
+de la temperatura $T$ en $^{\circ}C$, la precipitación pluvial $P_p$, 
+evaporación $E_p$ y Horas luz denotado $H_l$. Para ello se utilzaran programas de simulacion como \textbf{AquaCrop} 
+que es un modelo de simulación de crecimiento de los cultivos desarrollado por la 
+FAO. Este software simula la respuesta del rendimiento de los cultivos.%cita aqui 
+
+\begin{table}[t]
+    \begin{center}
+    \begin{tabular}{| c | c | c | c | c | }
+    \hline
+    \multicolumn{5}{ |c| }{Datos promedios de dias 15 de Abril al 15 de Noviembre (215 días) de los años 2016-2021} \\ \hline
+    Dia & Precipitacion $P_p$ & Evaporacion $E_p$ & Temp. Max $T_M$ &  Temp. Min $T_m$  \\ \hline
+    1 & 0 & 7.8 & 24 & 12  \\
+    2 & 0 & 7.8 & 24 & 9 \\
+    3 & 0 & 7.8 & 24 & 9 \\
+    4 & 0 & 7.8 & 24 & 9 \\
+    5 & 0 & 7.8 & 24 & 9 \\
+    6 & 0 & 7.8 & 24 & 9 \\
+    7 & 0 & 7.8 & 24 & 9 \\
+    8 & 0 & 7.8 & 24 & 9 \\
+    9 & 0 & 7.8 & 24 & 9 \\
+    10 & 0 & 7.8 & 24 & 9 \\
+    11 & 0 & 7.8 & 24 & 9 \\
+    12 & 0 & 7.9 & 24 & 9 \\
+    13 & 0 & 7.9 & 24 & 9 \\
+    14 & 0 & 7.9 & 24 & 9 \\
+    15 & 0 & 7.9 & 24 & 9 \\
+    16 & 0 & 7.9 & 24 & 9 \\
+    17 & 0 & 7.9 & 24 & 9 \\
+    18 & 5 & 7.9 & 24 & 9 \\
+    19 & 13 & 7.9 & 24 & 9 \\
+    20 & 14 & 7.9 & 24 & 9 \\
+    21 & 5 & 7.9 & 24 & 9 \\
+    22 & 4 & 7.9 & 24 & 9 \\
+    23 & 2 & 7.9 & 24 & 9 \\
+    24 & 0 & 7.9 & 24 & 9 \\
+    25 & 0 & 7.9 & 24 & 9 \\
+    26 & 0 & 7.9 & 24 & 9 \\
+    27 & 0 & 7.9 & 24 & 9 \\
+    28 & 0 & 7.9 & 24 & 9 \\
+    29 & 0 & 7.9 & 24 & 9 \\
+    30 & 0 & 7.9 & 24 & 9 \\
+    31 & 0 & 7.9 & 24 & 9 \\
+    32 & 0 & 7.9 & 24 & 9 \\
+    33 & 0 & 7.9 & 24 & 9 \\
+    34 & 0 & 7.9 & 24 & 9 \\
+    35 & 0 & 7.9 & 24 & 9 \\
+    36 & 0 & 7.9 & 24 & 9 \\
+    37 & 0 & 7.9 & 24 & 9 \\
+    38 & 0 & 7.9 & 24 & 9 \\
+    39 & 0 & 7.9 & 24 & 9 \\
+    40 & 0 & 7.9 & 24 & 9 \\
+    41 & 0 & 7.9 & 24 & 9 \\
+    42 & 0 & 7.9 & 24 & 9 \\
+    43 & 0 & 7.9 & 24 & 9 \\
+    44 & 0 & 7.9 & 24 & 9 \\
+    45 & 0 & 7.9 & 24 & 9 \\
+    46 & 0 & 7.9 & 24 & 9 \\
+    47 & 0 & 7.9 & 24 & 9 \\
+    48 & 0 & 7.9 & 24 & 9 \\
+    49 & 0 & 7.9 & 24 & 9 \\
+    50 & 0 & 7.9 & 24 & 9 \\
+    51 & 0 & 7.9 & 24 & 9 \\
+    52 & 0 & 7.9 & 24 & 9 \\
+    53 & 0 & 7.9 & 24 & 9 \\
+    54 & 0 & 7.9 & 24 & 9 \\
+    55 & 0 & 7.9 & 24 & 9 \\
+    56 & 0 & 7.9 & 24 & 9 \\
+    57 & 0 & 7.9 & 24 & 9 \\
+    58 & 0 & 7.9 & 24 & 9 \\
+    59 & 0 & 7.9 & 24 & 9 \\
+    60 & 0 & 7.9 & 24 & 9 \\
+    61 & 0 & 7.9 & 24 & 9 \\
+    62 & 0 & 7.9 & 24 & 9 \\
+    63 & 0 & 7.9 & 24 & 9 \\
+    64 & 0 & 7.9 & 24 & 9 \\
+    65 & 0 & 7.9 & 24 & 9 \\
+    66 & 0 & 7.9 & 24 & 9 \\
+    67 & 0 & 7.9 & 24 & 9 \\
+    68 & 0 & 7.9 & 24 & 9 \\
+    69 & 0 & 7.9 & 24 & 9 \\
+    70 & 0 & 7.9 & 24 & 9 \\
+    71 & 0 & 7.9 & 24 & 9 \\
+    72 & 0 & 7.9 & 24 & 9 \\
+    73 & 0 & 7.9 & 24 & 9 \\
+    74 & 0 & 7.9 & 24 & 9 \\
+    75 & 0 & 7.9 & 24 & 9 \\
+    76 & 0 & 7.9 & 24 & 9 \\
+    77 & 0 & 7.9 & 24 & 9 \\
+    78 & 0 & 7.9 & 24 & 9 \\
+    79 & 0 & 7.9 & 24 & 9 \\
+    80 & 0 & 7.9 & 24 & 9 \\
+    81 & 0 & 7.9 & 24 & 9 \\
+    82 & 0 & 7.9 & 24 & 9 \\
+    83 & 0 & 7.9 & 24 & 9 \\
+    84 & 0 & 7.9 & 24 & 9 \\
+    85 & 0 & 7.9 & 24 & 9 \\
+    86 & 0 & 7.9 & 24 & 9 \\
+    87 & 0 & 7.9 & 24 & 9 \\
+    88 & 0 & 7.9 & 24 & 9 \\
+    89 & 0 & 7.9 & 24 & 9 \\
+    90 & 0 & 7.9 & 24 & 9 \\
+    91 & 0 & 7.9 & 24 & 9 \\
+    92 & 0 & 7.9 & 24 & 9 \\
+    93 & 0 & 7.9 & 24 & 9 \\
+    94 & 0 & 7.9 & 24 & 9 \\
+    95 & 0 & 7.9 & 24 & 9 \\
+    96 & 0 & 7.9 & 24 & 9 \\
+    97 & 0 & 7.9 & 24 & 9 \\
+    98 & 0 & 7.9 & 24 & 9 \\
+    99 & 0 & 7.9 & 24 & 9 \\
+    100 & 0 & 8 & 25 & 10 \\
+
+
+
+
+    \hline
+    \end{tabular}
+    \caption{
+        Datos del periodo de siembra en el municipio de San Pablo Zitlaltepetl
+    }
+    \label{tab:DatosDeSiembra}
+    \end{center}
+\end{table}
 
 \section{Propuesta del modelo}
 Iniciaremos a construir el modelo por partes, primero partiremos de una aproximación lineal que simule el crecimiento de una sola planta de maíz hasta antes del inicio del periodo reproductivo.
@@ -322,12 +452,7 @@ Y el $\alpha_i$ quedara determinado como:
 
 
 
-\section{Datos}
-Para la obtencion de los datos del crecimiento utilizaremos los datos 
-de la temperatura $T$ en $^{\circ}C$, la precipitación pluvial $P_p$, 
-evaporación $E_p$ y Horas luz denotado $H_l$. Para ello se utilzaran programas de simulacion como \textbf{AquaCrop} 
-que es un modelo de simulación de crecimiento de los cultivos desarrollado por la 
-FAO. Este software simula la respuesta del rendimiento de los cultivos.%cita aqui 
+
 \section{Article types}
 
 For requirements for a specific article type please refer to the Article Types on any Frontiers journal page. Please also refer to  \href{http://home.frontiersin.org/about/author-guidelines#Sections}{Author Guidelines} for further information on how to organize your manuscript in the required sections or their equivalents for your field

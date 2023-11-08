@@ -334,6 +334,19 @@ INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
 INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\wrapfig\wrapfig.sty
 INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\txtbabel.def
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-es.ini
 INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ptm.fd
@@ -347,9 +360,6 @@ OUTPUT frontiers.aux
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\fmtcount\fc-english.def
-INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\fmtcount\fc-english.def
-INPUT C:\Users\Usuario\AppData\Roaming\MiKTeX\tex\latex\fmtcount\fc-english.def
 INPUT .\frontiers.out
 INPUT .\frontiers.out
 INPUT frontiers.out
@@ -448,21 +458,6 @@ INPUT .\images\morfologia.jpg
 INPUT .\images\morfologia.jpg
 INPUT .\images\morfologia.jpg
 INPUT .\images\morfologia.jpg
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT .\images\maiz.jpg
 INPUT .\images\maiz.jpg
 INPUT .\images\maiz.jpg
@@ -485,12 +480,12 @@ INPUT .\images\ciclomaiz.png
 INPUT .\images\ciclomaiz.png
 INPUT .\images\ciclomaiz.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\frontiers.bbl
 INPUT .\frontiers.bbl
 INPUT frontiers.bbl
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT frontiers.aux
