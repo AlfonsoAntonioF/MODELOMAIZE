@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.12)  7 NOV 2023 21:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.12)  7 NOV 2023 21:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -871,7 +871,7 @@ Package wrapfig Warning: wrapfigure used inside a conflicting environment on inp
 File: ./images/maiz.jpg Graphic file (type jpg)
 <use ./images/maiz.jpg>
 Package pdftex.def Info: ./images/maiz.jpg  used on input line 181.
-(pdftex.def)             Requested size: 176.40308pt x 164.71114pt.
+(pdftex.def)             Requested size: 100.79846pt x 94.1164pt.
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 183.
 
@@ -934,15 +934,15 @@ Package rerunfilecheck Info: File `frontiers.out' has not changed.
 (rerunfilecheck)             Checksum: 29B2F52A7B8F79F8CA7A762BED824B1E;2543.
  ) 
 Here is how much of TeX's memory you used:
- 36806 strings out of 475247
- 829356 string characters out of 5767600
+ 36803 strings out of 475247
+ 829329 string characters out of 5767600
  1960785 words of memory out of 5000000
  57444 multiletter control sequences out of 15000+600000
- 596669 words of font info for 229 fonts, out of 8000000 for 9000
+ 596550 words of font info for 227 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  99i,11n,131p,1083b,2059s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on frontiers.pdf (7 pages, 842195 bytes).
+Output written on frontiers.pdf (7 pages, 842069 bytes).
 PDF statistics:
  231 PDF objects out of 1000 (max. 8388607)
  41 named destinations out of 1000 (max. 500000)
